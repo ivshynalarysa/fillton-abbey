@@ -1,0 +1,146 @@
+.game-mechanics {
+    padding-bottom: 40px;
+    background-image: url('/img/game_mechanics/bg_stars_mob.png');
+    background-size: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mechanics-header {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.33;
+    color: #ff4eb8;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-5deg);
+    margin-bottom: 34px;
+}
+
+.line2-game-mechanics {
+    display: block;
+    margin-left: 70px;
+}
+.mechanics-descr {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    color: #5c2d91;
+    margin-bottom: 40px;
+}
+
+.mechanics-list {
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mechanics-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.mechanics-icon {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.mechanics-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mechanics-list-descr {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #5c2d91;
+    line-height: 1.5;
+}
+
+.mechanics-list-descr {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #5c2d91;
+}
+
+.mechanics-afterlist {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.33;
+    background: linear-gradient(90deg, #5c2d91 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-line {
+    display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .game-mechanics {
+        padding-bottom: 34px;
+        background-image:  url('/img/game_mechanics/bg_stars_desk.png');
+        background-size: 1200px;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    
+    .mechanics-header {
+        font-size: 64px;
+        margin-bottom: 44px;
+    }
+    
+    .line2-game-mechanics {
+         margin-left: 130px;   
+        
+    }
+    .mechanics-descr {
+        font-size: 48px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 40px;
+        
+    }
+    
+    .mechanics-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin: 0 auto 32px auto;
+    }
+    
+    .mechanics-list-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 26px;
+    }
+    
+    .mechanics-list-descr {
+        font-size: 24px;
+    }
+    
+    .mechanics-afterlist {
+        font-size: 24px;
+
+    }
+    .mechanics-icon {
+        flex-shrink: 0;
+        width: 50px;
+        height: 50px;   
+    }
+        .gradient-line {
+        display: block;
+    }
+}
