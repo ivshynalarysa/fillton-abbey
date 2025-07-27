@@ -1,11 +1,11 @@
 {
-  "name": "stp-9254",
+  "name": "fillton-abbey",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/stp-9254/",
+    "build": "vite build --base=/fillton-abbey/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
