@@ -7,7 +7,7 @@
 .about-container {
     display: flex;
     flex-direction: row;
-    gap: 130px;
+    justify-content: space-between;
     
 }
 .about-img-container {
@@ -16,7 +16,7 @@
 .about-img {
 }
 .about-description {
-    width: 600px;
+    width: 650px;
 }
 .about-title {
     font-family: comporand-garamond, serif;
