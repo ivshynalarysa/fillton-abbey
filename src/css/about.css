@@ -1,0 +1,52 @@
+.about {
+  
+    padding: 140px 0;
+    background: rgba(43, 69, 37, 0.25);
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    
+}
+.about-img-container {
+    box-shadow: -4px 4px 6px 0 #2b4525;
+}
+.about-img {
+}
+.about-description {
+    width: 600px;
+}
+.about-title {
+    font-family: comporand-garamond, serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+margin-bottom: 64px;
+
+}
+.about-text {
+    
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: var(--black);
+}
+.about-list {
+    font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+color: var(--black);
+margin-bottom: 60px;
+margin-top: 60px;
+gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.about-item {
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    align-items: center;
+}

@@ -13,15 +13,12 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./candytypes.css');
-@import url('./gamemechanics.css');
-@import url('./levelvariety.css');
-@import url('./candymap.css');
-@import url('./strategytips.css');
-@import url('./events.css');
+@import url('./about.css');
+@import url('./masters.css');
+@import url('./gallery.css');
+@import url('./services.css');
 @import url('./reviews.css');
-@import url('./faq.css');
-@import url('./contact.css');
+@import url('./contacts.css');
 @import url('./footer.css');
 @import url('./pages.css');
 @import url('./cookie.css');

@@ -1,0 +1,55 @@
+.services {
+    padding: 140px 24px;
+;
+}
+
+.services-title {
+    font-family: cormorant-garamond, serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+margin-bottom: 100px;
+
+
+    
+}
+.services-list {
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px 300px;
+}
+.services-item {
+    padding: 34px 50px;
+    position: relative;
+    display: inline-block;
+   
+    width: 420px;
+    height: 100px;
+    box-shadow: -4px 4px 0 0 #e5b6b4;
+    background: #2b4525;
+}
+.services-icon {
+   
+}
+.services-item-title {
+     font-weight: 300;
+font-size: 32px;
+line-height: 100%;
+color: #fff;
+    margin-bottom: 16px;
+}
+.services-icon-circle {
+    position: absolute;
+    top: -50px;
+    right: 5px;
+    transform: translateX(50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #e5b6b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
