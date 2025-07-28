@@ -35,18 +35,25 @@ margin-bottom: 50px;
    padding: 10px;
    width: 250px;
    height: 60px;
-   font-weight: 500;
+   font-weight: 700;
    font-size: 24px;
    line-height: 150%;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2b4525;
    box-shadow: -4px 4px 4px 0 #2b4525;
+  
 }
 
 .hero-button:hover {
     background-color: #2b4525;
     color: #fff;
+    transform: translateY(-2px);
+    box-shadow: -4px 4px 0 0 #e5b6b4;
+    transition: all 0.3s ease-in-out;
+    background-image: url('/img/header/dog-cute.gif'); /* Doge PNG з прозорим фоном */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .hero-container {
     display: flex;
