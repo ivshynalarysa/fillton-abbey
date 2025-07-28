@@ -4,11 +4,11 @@
 }
 
 .masters-title {
-   font-family: cormorand-garamond, serif;
+   font-family: var(--second-family);
 font-weight: 500;
 font-size: 48px;
 line-height: 121%;
-color: var(--black); 
+
 
 }
 .master-text {
@@ -17,15 +17,12 @@ font-weight: 500;
 font-size: 32px;
 line-height: 100%;
 text-align: center;
-color: var(--black);
+
 }
 .masters-img {
-    width: 1120px;
+    width: 1200px;
     height: 550px;
-    box-shadow: -4px 4px 4px 0 #2b4525;
-   background: #929292;
-   background-image: url('/img/masters/paws-paw.gif'); /* Doge PNG з прозорим фоном */
-  background-size: contain;
-  background-repeat: no-repeat;
-   margin: 28px auto 62px;
+    box-shadow: -4px 4px 0 0 var(--green-color);
+  
+   margin: 50px auto 100px;
 }

@@ -7,45 +7,45 @@
 .about-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 188px
     
 }
 .about-img-container {
-    box-shadow: -4px 4px 6px 0 #2b4525;
+    height: 707px;
+    box-shadow: -4px 4px 0 0 var(--green-color);
 }
 
 .about-description {
-    width: 650px;
+    width: 634px;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--black-color);
+
 }
 .about-title {
-    font-family: comporand-garamond, serif;
-font-weight: 500;
-font-size: 48px;
-line-height: 121%;
-margin-bottom: 64px;
+    
+    font-size: 48px;
+    line-height: 121%;
+    margin-bottom: 50px;
 
 }
 .about-text {
+    margin-bottom: 50px;
     
-font-weight: 400;
-font-size: 20px;
-line-height: 160%;
-color: var(--black);
 }
 .about-list {
-    font-weight: 500;
-font-size: 20px;
-line-height: 160%;
-color: var(--black);
-margin-bottom: 60px;
-margin-top: 60px;
-gap: 50px;
+   
+    margin-bottom: 50px;
+    
+    gap: 28px;
     display: flex;
     flex-direction: column;
 }
 .about-item {
     display: flex;
     flex-direction: row;
-    gap: 53px;
+    gap: 28px;
     align-items: center;
 }

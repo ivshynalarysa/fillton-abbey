@@ -1,4 +1,8 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease-in-out;
     width: 100%;
     height: 100px;
     background-color: #CAD0C8;
@@ -13,6 +17,10 @@ color: var(--black);
     padding: 24px 0;
    
     
+}
+
+.header.scrolled {
+    box-shadow: 0 4px 10px 0 var(--green-color);
 }
 
 .header-wrapper {
@@ -90,11 +98,9 @@ color: var(--black);
     }
 }
 .header-link:hover {
-    color: #2b4525;
-    
-    box-shadow: 4px 4px 4px 0 #2b4525;
-    border-radius: 10px;
-    
+    color:var(--green-color); ;
+    text-decoration: underline;
+    text-decoration-color: var(--green-color);
 }
 
 .meme-dog {
