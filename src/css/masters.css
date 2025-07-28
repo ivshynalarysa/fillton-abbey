@@ -24,5 +24,8 @@ color: var(--black);
     height: 550px;
     box-shadow: -4px 4px 4px 0 #2b4525;
    background: #929292;
+   background-image: url('/img/masters/paws-paw.gif'); /* Doge PNG з прозорим фоном */
+  background-size: contain;
+  background-repeat: no-repeat;
    margin: 28px auto 62px;
 }

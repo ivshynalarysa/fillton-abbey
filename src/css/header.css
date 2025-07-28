@@ -55,6 +55,10 @@ color: var(--black);
     display: inline-block;
     white-space: nowrap;
 }
+
+.logo-link {
+    animation: bounceOut 2s ease-in-out forwards;
+}
 .header-link:nth-child(1) {
     animation: lightSpeedInRight 1.5s ease-in-out forwards;
     animation-delay: 1.5s;
@@ -96,14 +100,14 @@ color: var(--black);
 .meme-dog {
   width: 120px;
   height: 120px;
-  background-image: url('/img/header/haircut-icon.png'); /* Doge PNG з прозорим фоном */
+  background-image: url('/img/header/adoptinga-best-friend-running.gif'); /* Doge PNG з прозорим фоном */
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
- top: 60px;
+ top: 50px;
   right: -150px;
   transform: translateY(-50%);
-  animation: dogeRun 3s linear forwards;
+  animation: dogeRun 3.5s linear forwards;
 }
 
 @keyframes dogeRun {
