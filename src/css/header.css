@@ -19,6 +19,7 @@ color: var(--black);
     width: 100%;
     display: flex;
     align-items: center;
+    
 
 }
 
@@ -30,7 +31,7 @@ color: var(--black);
 }
 
 .header-list {
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     align-items: center;
     gap: 80px;
@@ -45,14 +46,18 @@ color: var(--black);
 }
 
 .header-link {
+    padding: 8px 0;
+    text-align: center;
+    width: 100px;
+    height: 36px;
     opacity: 0;
     animation: lightSpeedInRight 2s ease-in-out forwards;
     display: inline-block;
     white-space: nowrap;
 }
 .header-link:nth-child(1) {
-    animation: lightSpeedInRight 1s ease-in-out forwards;
-    animation-delay: 1s;
+    animation: lightSpeedInRight 1.5s ease-in-out forwards;
+    animation-delay: 1.5s;
 }
 .header-link:nth-child(2) {
     
@@ -79,4 +84,33 @@ color: var(--black);
         opacity: 1;
         transform: translateX(0);
     }
+}
+.header-link:hover {
+    color: #2b4525;
+    
+    box-shadow: 4px 4px 4px 0 #2b4525;
+    border-radius: 10px;
+    
+}
+
+.meme-dog {
+  width: 120px;
+  height: 120px;
+  background-image: url('/img/header/haircut-icon.png'); /* Doge PNG з прозорим фоном */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+ top: 60px;
+  right: -150px;
+  transform: translateY(-50%);
+  animation: dogeRun 3s linear forwards;
+}
+
+@keyframes dogeRun {
+  0% {
+    right: -150px;
+  }
+  100% {
+    right: 110%;
+  }
 }

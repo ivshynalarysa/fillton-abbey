@@ -1,0 +1,32 @@
+.gallery {
+    padding: 140px 0;
+}
+
+.gallery-title {
+font-family: cormorant Garamond, serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+color: var(--black);
+
+}
+.gallery-grid {
+    width: 1300px;
+   display: flex;
+   flex-direction: row;
+    gap: 24px;
+    margin: 50px auto 50px;
+    flex-wrap: wrap;
+}
+.gallery-link {
+    
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--black);
+}
+
+
+

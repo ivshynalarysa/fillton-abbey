@@ -1,0 +1,28 @@
+.masters {
+    padding: 150px 0;
+    background: #cad0c8;
+}
+
+.masters-title {
+   font-family: cormorand-garamond, serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+color: var(--black); 
+
+}
+.master-text {
+
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+text-align: center;
+color: var(--black);
+}
+.masters-img {
+    width: 1120px;
+    height: 550px;
+    box-shadow: -4px 4px 4px 0 #2b4525;
+   background: #929292;
+   margin: 28px auto 62px;
+}

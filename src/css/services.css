@@ -30,9 +30,6 @@ margin-bottom: 100px;
     box-shadow: -4px 4px 0 0 #e5b6b4;
     background: #2b4525;
 }
-.services-icon {
-   
-}
 .services-item-title {
      font-weight: 300;
 font-size: 32px;
@@ -52,4 +49,10 @@ color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.services-item:hover {
+   box-shadow: -4px 4px 4px 0 #2b4525; 
+   
+     background: linear-gradient(90deg, #e5b6b4 0%, #2b4525 100%); 
 }
