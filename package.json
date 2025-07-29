@@ -19,6 +19,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "accordion-js": "^3.4.1",
     "animate.css": "^4.1.1",
     "swiper": "^11.2.8",
     "vite-plugin-full-reload": "^1.2.0",
