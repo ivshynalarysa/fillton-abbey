@@ -19,12 +19,13 @@ ul {
 }
 
 a {
+  cursor: url(../img/cursor.cur), auto;
   color: currentColor;
   text-decoration: none;
 }
 
 button {
-  cursor: pointer;
+  cursor: url(../img/cursor.cur), auto;
   border: none;
   background: transparent;
 }

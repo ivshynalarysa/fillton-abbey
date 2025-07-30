@@ -1,6 +1,10 @@
+
 document.addEventListener("DOMContentLoaded", function () {
+    
     const galleryImages = document.querySelectorAll(".gallery-image");
+    console.log(galleryImages);
     const viewAllButton = document.querySelector(".gallery-btn");
+    console.log(viewAllButton);
     let visibleCount = 4;
     const itemsPerClick = 4;
     let isExpanded = false;
