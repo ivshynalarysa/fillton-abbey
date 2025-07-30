@@ -1,0 +1,19 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-tiktok" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M28 10.667v10.667c0 1.768-0.702 3.464-1.953 4.714s-2.946 1.953-4.714 1.953h-10.667c-1.768 0-3.464-0.702-4.714-1.953s-1.953-2.946-1.953-4.714v-10.667c0-1.768 0.702-3.464 1.953-4.714s2.946-1.953 4.714-1.953h10.667c1.768 0 3.464 0.702 4.714 1.953s1.953 2.946 1.953 4.714z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M13.333 16c-0.791 0-1.565 0.235-2.222 0.674s-1.171 1.064-1.473 1.795c-0.303 0.731-0.382 1.535-0.228 2.311s0.535 1.489 1.095 2.048c0.559 0.559 1.272 0.94 2.048 1.095s1.58 0.075 2.311-0.228c0.731-0.303 1.356-0.815 1.795-1.473s0.674-1.431 0.674-2.222v-12c0.444 1.333 2.133 4 5.333 4"></path>
+</symbol>
+<symbol id="icon-twitter" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M3.333 16c0-5.971 0-8.957 1.855-10.812s4.84-1.855 10.813-1.855c5.971 0 8.956 0 10.811 1.855s1.855 4.84 1.855 10.812c0 5.971 0 8.957-1.855 10.812s-4.84 1.855-10.812 1.855c-5.971 0-8.956 0-10.812-1.855-1.853-1.856-1.855-4.84-1.855-10.812z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M9.333 22.667l5.592-5.591M14.925 17.076l-5.592-7.743h3.703l4.040 5.592 5.591-5.592M14.925 17.076l4.037 5.591h3.704l-5.591-7.743"></path>
+</symbol>
+<symbol id="icon-instagram" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M3.333 16c0-5.971 0-8.957 1.855-10.812s4.84-1.855 10.812-1.855c5.971 0 8.957 0 10.812 1.855s1.855 4.84 1.855 10.812c0 5.971 0 8.957-1.855 10.812s-4.84 1.855-10.812 1.855c-5.971 0-8.957 0-10.812-1.855s-1.855-4.84-1.855-10.812z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M23.344 8.667h-0.013M22 16c0 1.591-0.632 3.117-1.757 4.243s-2.651 1.757-4.243 1.757-3.117-0.632-4.243-1.757c-1.125-1.125-1.757-2.651-1.757-4.243s0.632-3.117 1.757-4.243c1.125-1.125 2.651-1.757 4.243-1.757s3.117 0.632 4.243 1.757c1.125 1.125 1.757 2.651 1.757 4.243z"></path>
+</symbol>
+<symbol id="icon-plus" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M16.060 2l-0.036 28M2 16h28"></path>
+</symbol>
+</defs>
+</svg>
