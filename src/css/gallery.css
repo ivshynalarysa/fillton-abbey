@@ -18,14 +18,14 @@ color: var(--black);
     margin: 50px auto 50px;
     flex-wrap: wrap;
 }
-.gallery-link {
+.gallery-btn {
     
 font-weight: 500;
 font-size: 32px;
 line-height: 100%;
 text-decoration: underline;
-text-decoration-skip-ink: none;
-color: var(--black);
+
+
 }
 
 
