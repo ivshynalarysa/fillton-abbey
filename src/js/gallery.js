@@ -1,18 +1,37 @@
+//document.addEventListener("DOMContentLoaded", function () {
+   // const viewAll = document.querySelector('.gallery-btn');
+    //const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
+    //const initialVisibleCount = 4;
+    //let isExpanded = false;
+   // console.log(galleryItems);
 
-document.addEventListener("DOMContentLoaded", function () {
-    
-    const galleryImages = document.querySelectorAll(".gallery-image");
-    console.log(galleryImages);
-    const viewAllButton = document.querySelector(".gallery-btn");
-    console.log(viewAllButton);
-    let visibleCount = 4;
-    const itemsPerClick = 4;
-    let isExpanded = false;
-    galleryImages.forEach((img, index) => {
-        if (index >= visibleCount) {
-            img.classList.add("hidden");
-        }
+   // function updateGallery() {
+       // galleryItems.forEach((item, index) => {
+        //    if (isExpanded || index < initialVisibleCount) {
+        //        item.classList.add('show');
+         //       item.classList.remove('hidden');
+         //   } else {
+         //       item.classList.add('hidden');
+          //      item.classList.remove('show');
+         //   }
+       // });
+
+        //viewAll.textContent = isExpanded ? "Show Less" : "View All";
+   // }
+
+    //viewAll.addEventListener('click', () => {
+     //   isExpanded = !isExpanded;
+     //   updateGallery();
+    //});
+
+    //updateGallery(); // Initial render
+//});
+const galleryItems = document.querySelectorAll('.gallery-item');
+function toggleGalleryItems() {
+    galleryItems.forEach(item => {
+        item.classList.toggle('show');
+        item.classList.toggle('hidden');
     });
+}
 
- 
-});
+

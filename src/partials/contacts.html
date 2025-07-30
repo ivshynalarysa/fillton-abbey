@@ -1,20 +1,91 @@
 <section class="contacts" id="contacts">
-    <div class="container contacts-container">
-        <h2 class="contacts-title">Contact Us</h2>
-        <form class="contacts-form">
+    <div class="container">
+        <h2 class="contacts-title">Contacts</h2>
+        <div class="contacts-container">
+           <ul class="contacts-list">
+            <li class="contacts-item">
+                <p class="contacts-text">Telephone: </p>
+                    <a href="tel:+447376625996" class="contacts-phone">07376625996</a>
+            </li>
+            <li class="contacts-item">
+                <p class="contacts-text">E-mail: </p>
+                <a href="mailto:filtonabbeywoof@gmail.com" class="contacts-email">filtonabbeywoof@gmail.com</a>
+            </li>
+            <li class="contacts-item">
+                <p class="contacts-text">Follow us:</p>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a class="social-link" 
+                        href="https://www.instagram.com/filtonabbey" target="_blank">
+                            <svg class="social-icon"   width="42" height="42">
+                                <use href="/img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="https://www.twitter.com/filtonabbey" target="_blank">
+                            
+                                <svg class="social-icon" width="42" height="42">
+                                    <use href="/img/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="https://www.tiktok.com/@filtonabbey" target="_blank">
+                            
+                                <svg class="social-icon" width="42" height="42">
+                                    <use href="/img/sprite.svg#icon-tiktok"></use>
+                                </svg>
+                            
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <form class="contacts-form" id="contacts-form">
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                
+                <input
+                class="form-user-input" 
+                type="text" 
+                id="name" 
+                name="name"
+                placeholder="Anastasia Birkin" 
+                required
+                pattern="">
+
+            <span class="invalid-input">
+               Please enter correct value.</span>
+                
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                
+                <input 
+                class="form-user-input"
+                type="email"
+                 id="email" 
+                 name="email" 
+                 required
+                 placeholder="AnastasiaBirkin@gmail.com"
+                 pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+                 >
             </div>
             <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <textarea
+                class="form-user-input"
+                 id="message" 
+                 name="message" 
+                 rows="5" 
+                 required
+                 placeholder="Write your message">
+                </textarea>
             </div>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+            <button type="submit" class="contacts-form-btn">Send</button>
+        </form> 
+
+        </div>
+        
     </div>
 </section>
