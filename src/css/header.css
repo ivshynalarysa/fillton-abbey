@@ -59,7 +59,7 @@ color: var(--black);
     width: 100px;
     height: 36px;
     opacity: 0;
-    animation: lightSpeedInRight 2s ease-in-out forwards;
+    animation: animate__lightSpeedInRight 2s ease-in-out forwards;
     display: inline-block;
     white-space: nowrap;
 }

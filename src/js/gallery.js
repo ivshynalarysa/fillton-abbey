@@ -27,11 +27,20 @@
     //updateGallery(); // Initial render
 //});
 const galleryItems = document.querySelectorAll('.gallery-item');
-function toggleGalleryItems() {
-    galleryItems.forEach(item => {
-        item.classList.toggle('show');
-        item.classList.toggle('hidden');
+console.log (galleryItems)
+let countView = 4;
+console.log (countView)
+function showImages() {
+    galleryItems.forEach((item, index) => {
+        if 
+        (index >= countView)
+        item.classList.add('hidden');
+        console.log (galleryItems)
     });
+    console.log (galleryItems)
 }
+showImages ()
+const count = 5;
+console.log (count)
 
 
