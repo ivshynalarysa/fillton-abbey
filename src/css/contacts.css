@@ -52,6 +52,7 @@ letter-spacing: 0.01em;
 .social-item {
 }
 .social-icon {
+    stroke: #fff;
     
 }
 .contacts-form {
@@ -61,7 +62,7 @@ letter-spacing: 0.01em;
     flex-direction: column;
     gap: 50px;
 }
-.form-user-input{
+.form-user-input {
     height: 56px;
     width: 100%;
     text-align: center;
@@ -72,12 +73,28 @@ font-weight: 500;
 font-size: 24px;
 line-height: 150%;
 letter-spacing: 0.01em;
+outline: transparent;
 
 
 }
-.form-user-input:hover  {
+.form-user-textarea {
+     height: 56px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+     padding: 10px;
+     font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0.01em;
+outline: transparent;
+
+}
+.form-user-input:focus .form-user-input:hover {
     border: 1px solid var(--green-color);
     color: var(--green-color);
+    
 
 }
 .form-group {
