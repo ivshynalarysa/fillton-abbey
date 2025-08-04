@@ -46,14 +46,20 @@ letter-spacing: 0.01em;
 
 }
 .social-link {
-    color:transparent
+    
 
 }
 .social-item {
 }
 .social-icon {
-    stroke: #fff;
+    stroke: #000;
+    fill: #fff;
     
+}
+.social-link:hover .social-icon:focus .social-icon:hover{
+    stroke: var(--green-color);
+    width: 32px;
+    height: 32px;
 }
 .contacts-form {
     width: 380px;

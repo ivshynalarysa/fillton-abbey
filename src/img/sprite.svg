@@ -1,16 +1,16 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-instagram" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M1.222 16c0-6.966 0-10.45 2.164-12.614s5.647-2.164 12.614-2.164c6.966 0 10.45 0 12.614 2.164s2.164 5.647 2.164 12.614c0 6.966 0 10.45-2.164 12.614s-5.647 2.164-12.614 2.164c-6.966 0-10.45 0-12.614-2.164s-2.164-5.647-2.164-12.614z"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M24.568 7.444h-0.016M23 16c0 1.857-0.738 3.637-2.050 4.95s-3.093 2.050-4.95 2.050-3.637-0.738-4.95-2.050c-1.313-1.313-2.050-3.093-2.050-4.95s0.738-3.637 2.050-4.95c1.313-1.313 3.093-2.050 4.95-2.050s3.637 0.738 4.95 2.050c1.313 1.313 2.050 3.093 2.050 4.95z"></path>
+<symbol id="icon-tiktok" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" d="M30.824 9.412v13.176c0 2.184-0.868 4.279-2.412 5.823s-3.639 2.412-5.823 2.412h-13.176c-2.184 0-4.279-0.868-5.823-2.412s-2.412-3.639-2.412-5.823v-13.176c0-2.184 0.868-4.279 2.412-5.823s3.639-2.412 5.823-2.412h13.176c2.184 0 4.279 0.868 5.823 2.412s2.412 3.639 2.412 5.823z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" d="M12.706 16c-0.977 0-1.933 0.29-2.745 0.833s-1.446 1.315-1.82 2.218-0.472 1.896-0.281 2.855c0.191 0.959 0.661 1.839 1.352 2.53s1.572 1.162 2.53 1.352c0.959 0.191 1.952 0.093 2.855-0.281s1.675-1.007 2.217-1.82c0.543-0.813 0.833-1.768 0.833-2.745v-14.824c0.549 1.647 2.635 4.941 6.588 4.941"></path>
 </symbol>
 <symbol id="icon-twitter" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M1.222 16c0-6.966 0-10.45 2.164-12.614s5.647-2.164 12.616-2.164c6.966 0 10.449 0 12.612 2.164s2.164 5.647 2.164 12.614c0 6.966 0 10.45-2.164 12.614s-5.647 2.164-12.614 2.164c-6.966 0-10.449 0-12.614-2.164-2.162-2.165-2.164-5.647-2.164-12.614z"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M8.222 23.778l6.524-6.522M14.746 17.255l-6.524-9.033h4.32l4.713 6.524 6.522-6.524M14.746 17.255l4.71 6.522h4.321l-6.522-9.033"></path>
 </symbol>
-<symbol id="icon-tiktok" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" d="M30.824 9.412v13.176c0 2.184-0.868 4.279-2.412 5.823s-3.639 2.412-5.823 2.412h-13.176c-2.184 0-4.279-0.868-5.823-2.412s-2.412-3.639-2.412-5.823v-13.176c0-2.184 0.868-4.279 2.412-5.823s3.639-2.412 5.823-2.412h13.176c2.184 0 4.279 0.868 5.823 2.412s2.412 3.639 2.412 5.823z"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" d="M12.706 16c-0.977 0-1.933 0.29-2.745 0.833s-1.446 1.315-1.82 2.218-0.472 1.896-0.281 2.855c0.191 0.959 0.661 1.839 1.352 2.53s1.572 1.162 2.53 1.352c0.959 0.191 1.952 0.093 2.855-0.281s1.675-1.007 2.217-1.82c0.543-0.813 0.833-1.768 0.833-2.745v-14.824c0.549 1.647 2.635 4.941 6.588 4.941"></path>
+<symbol id="icon-instagram" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M1.222 16c0-6.966 0-10.45 2.164-12.614s5.647-2.164 12.614-2.164c6.966 0 10.45 0 12.614 2.164s2.164 5.647 2.164 12.614c0 6.966 0 10.45-2.164 12.614s-5.647 2.164-12.614 2.164c-6.966 0-10.45 0-12.614-2.164s-2.164-5.647-2.164-12.614z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M24.568 7.444h-0.016M23 16c0 1.857-0.738 3.637-2.050 4.95s-3.093 2.050-4.95 2.050-3.637-0.738-4.95-2.050c-1.313-1.313-2.050-3.093-2.050-4.95s0.738-3.637 2.050-4.95c1.313-1.313 3.093-2.050 4.95-2.050s3.637 0.738 4.95 2.050c1.313 1.313 2.050 3.093 2.050 4.95z"></path>
 </symbol>
 <symbol id="icon-plus" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M16.060 2l-0.036 28M2 16h28"></path>
