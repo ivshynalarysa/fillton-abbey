@@ -18,9 +18,6 @@ padding-top: 140px;
 }
 .footer-map {
     width: 100%;
-   
-  
-    
 }
 .footer-map-link {
 }
@@ -35,10 +32,38 @@ padding-top: 140px;
 .footer-social-list {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 60px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 80px;
+    margin-top: 100px;
 }
+.footer-social-icon {
+    fill: #ffff;
+    stroke: #0000;
+}
+.footer-social-item {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-social-item:hover {
+border-bottom: 4px solid var(--green-color) ;
+    border-radius: 12px;
+    border-left: 4px solid  var(--green-color);
+    background-color: var(--green-color);
+}
+
+.footer-social-item:hover .social-icon {
+    stroke: var(--green-color);
+    height: 32px;
+    width: 32px;
+}
+
+
 .footer-phone {
     margin-bottom: 18px;
     font-size: 40px;
@@ -66,4 +91,10 @@ padding-top: 140px;
     text-decoration: underline;
     
     
+}
+
+.footer-text {
+    display: flex;
+    gap: 16px;
+
 }

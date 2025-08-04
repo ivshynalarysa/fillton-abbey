@@ -22,6 +22,7 @@ margin-bottom: 100px;
     gap: 50px;
 }
 .contacts-item {
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,25 +43,41 @@ letter-spacing: 0.01em;
 .social-list { 
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 
 }
 .social-link {
+    transition: opasity 250ms ease;
     
 
 }
 .social-item {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    
+}
+
+.social-item:hover {
+    background-color: var(--green-color);
+border-bottom: 4px solid var(--green-color) ;
+    border-radius: 12px;
+    border-left: 4px solid  var(--green-color);
 }
 .social-icon {
     stroke: #000;
     fill: #fff;
     
 }
-.social-link:hover .social-icon:focus .social-icon:hover{
+.social-link:hover .social-icon {
     stroke: var(--green-color);
+    
     width: 32px;
     height: 32px;
 }
+
 .contacts-form {
     width: 380px;
     height: 378px;
@@ -95,6 +112,7 @@ font-size: 24px;
 line-height: 150%;
 letter-spacing: 0.01em;
 outline: transparent;
+resize: none;
 
 }
 .form-user-input:focus .form-user-input:hover {
