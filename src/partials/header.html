@@ -7,10 +7,18 @@
             alt="Filton Abbey Woof Logo"
             width="88"
             height="100"
-            class="logo-img"
+            class="logo-img-deck"
         />
        </a> 
-      
+      <a href="#home">
+  <img
+            src="/img/footer/logo-footer.png"
+            alt="Filton Abbey Woof Logo"
+            width="88"
+            height="100"
+            class="logo-img-mobile"
+        />
+       </a> 
         <div class="meme-dog"></div>
         <nav class="header-nav">
             <ul class="header-list">
@@ -35,7 +43,7 @@
                 </li>
             </ul>
         </nav>
-        <button type="button" class="header-btn-burger">
+        <button type="button" class="header-btn-burger" data-menu-handler>
             <svg class="burger-icon" 
                 width="32" 
                 height="32">  
@@ -46,6 +54,48 @@
         </div>
         </div>
 </header>
+<!--mobile menu-->
+
+<div class="mobile-menu" data-menu>
+  <div class="container mobile-menu-container">
+   
+    <button class="mobile-menu-close" type="button" data-menu-handler>
+      <svg class="svg-icon-close" width="32" height="32">
+        <use href="/img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <div class="menu-wrapper">
+      <ul class="mobile-nav-menu">
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#about" data-menu-handler
+            >About</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#services" data-menu-handler
+            >Services</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#gallery" data-menu-handler
+            >Gallery</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#reviews" data-menu-handler
+            >Reviews</a>
+        </li>
+         <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#faq" data-menu-handler
+            >FAQ</a>
+        </li>
+         <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#contacts" data-menu-handler
+            >Contacts</a>
+        </li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
 
   
 

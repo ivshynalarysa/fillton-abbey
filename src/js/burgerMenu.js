@@ -1,29 +1,34 @@
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const openBtn = document.querySelector('[data-action="open"]');
-  const closeBtn = document.querySelector('[data-action="close"]');
-  const modalMenu = document.querySelector('.backdrop');
-  const navLinks = document.querySelectorAll('.modal-nav .nav-item a');
+const refs = {
+  changeModalBtn: document.querySelectorAll('[data-menu-handler]'),
+  modal: document.querySelector('[data-menu]'),
+  footerLinks: document.querySelectorAll('[data-scrol-down]'),
+};
 
-  console.log('burgerMenu.js loaded');
-  console.log('openBtn:', openBtn);
-  console.log('closeBtn:', closeBtn);
-  console.log('modalMenu:', modalMenu);
+refs.changeModalBtn.forEach(link => {
+  link.addEventListener('click', toggleModal);
+});
 
-  if (openBtn && closeBtn && modalMenu) {
-    openBtn.addEventListener('click', () => {
-      modalMenu.dataset.visible = 'true';
-    });
+refs.footerLinks.forEach(link => {
+  link.addEventListener('click', scrolDown);
+});
 
-    closeBtn.addEventListener('click', () => {
-      modalMenu.dataset.visible = 'false';
-    });
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        modalMenu.dataset.visible = 'false';
-      });
-    }); 
-    
+function toggleModal() {
+  refs.modal.classList.toggle('is-open');
+  document.body.classList.toggle('no-scroll');
+}
+
+function scrolDown(event) {
+  event.preventDefault();
+  const section = document.querySelector('#contacts');
+  const sectionBottom = section.offsetTop + section.offsetHeight;
+
+  window.scrollTo({
+    top: sectionBottom - window.innerHeight,
+  });
+
+  if (this.closest('.mobile-order-link')) {
+    toggleModal();
   }
-}); 
+}

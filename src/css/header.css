@@ -1,22 +1,25 @@
 .header {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 900;
     transition: box-shadow 0.3s ease-in-out;
     width: 100%;
     height: 100px;
-    background-color: #CAD0C8;
-    color: #000;
+    
+    
     display: flex;
     align-items: center;
     font-family: cormorand-garamond, serif;
     font-weight: 500;
 font-size: 24px;
 
-color: var(--black);
+
     padding: 24px 0;
    
     
+}
+.logo-img-deck {
+    display: none;
 }
 
 .header.scrolled {
@@ -37,9 +40,103 @@ color: var(--black);
     stroke: #000;
     fill: #000;
 }
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+background-color: #CAD0C8;
+  background-image: url(/img/hero/mob_hero_and_meny_decor_bg.png),
+    linear-gradient(
+      var(--general-background-color),
+      var(--general-background-color)
+    );
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  transition: transform 250ms;
+  transform: translateX(-100%);
+}
+
+.svg-icon-close {
+  stroke: #000;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 104px;
+}
+
+.mobile-menu.is-open {
+    z-index: 999;
+    transform: translateX(0);
+}
+.mobile-menu-container {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    padding: 20px 20px;
+}
+.mobile-menu-close {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-nav-menu {
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: auto;
+  display: flex;
+  gap: 20px;
+  
+  padding-top: 112px;
+  font-family: var(--second-font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  padding-right: 11px;
+
+}
+.mobile-nav-link::after {
+    content: '|';
+    width: 1px;
+    height: 32px;
+   
+    margin-left: 16px;
+}
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
+  color: var(--green-color);
+}
+.no-scroll {
+    overflow: hidden;
+}
+
 
 @media screen and (min-width: 1280px) {
+    .header {
+        background-color: #CAD0C8;
+    }
     .header-btn-burger {
+        display: none;
+    }
+    .logo-img-deck {
+        display: block;
+    }
+    .logo-img-mobile {
         display: none;
     }
 
