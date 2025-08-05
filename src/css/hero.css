@@ -82,7 +82,8 @@
     }
 }
 
-.hero-button:hover {
+.hero-button:hover
+.hero-button:focus {
     
     
     transform: translateY(-2px);
@@ -120,7 +121,7 @@
     width: 688px;
     
     margin-top: 0;
-    padding: 64px  0;
+    padding: 34px  0;
     align-items: flex-start;
     
 }
@@ -137,13 +138,14 @@
     
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     
   
     
 }
 .hero-button {
   
-    animation: zoomOut  5s ease-in-out forwards;
+    animation: zoomOut  2s ease-in-out forwards;
   
 }
 
