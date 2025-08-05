@@ -24,6 +24,12 @@ html {scroll-behavior: smooth;}
 [id] {
     scroll-margin-top: 50px;
 }
+@media only screen and (min-width: 768px){
+    [id] { 
+        scroll-margin-top: 20px;
+
+    }
+}
 
 @media only screen and (min-width: 1200px){
     [id] { 
