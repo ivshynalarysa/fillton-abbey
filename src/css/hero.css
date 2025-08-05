@@ -18,8 +18,7 @@
     line-height: 121%;
     color: var(--green-color);
     margin-bottom: 28px;
-     animation: zoomIn  4.5s ease-in-out forwards;
-     opacity: 0;
+    
 }
 
 @keyframes zoomIn {
