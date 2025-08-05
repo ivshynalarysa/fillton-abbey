@@ -63,6 +63,13 @@ margin-bottom: 50px;
      background: linear-gradient(90deg, var(--pink-color) 0%, var(--green-color) 100%); 
 }
 
+.services-item-left:hover {
+
+     box-shadow: 4px 4px 4px 0 var(--green-color); 
+
+     background: linear-gradient(90deg, var(--green-color) 0%, var(--pink-color) 100%); 
+}
+
 @media screen and (min-width: 768px) {
 .services {
     padding: 34px 0;
@@ -105,6 +112,12 @@ margin-bottom: 100px;
 .services-item-left {
         box-shadow: -4px 4px 0 0 var(--pink-color);
 
+}
+.services-item-left:hover {
+
+     box-shadow: -4px 4px 4px 0 var(--green-color); 
+
+     background: linear-gradient(90deg, var(--pink-color) 0%, var(--green-color) 100%); 
 }
 
 }

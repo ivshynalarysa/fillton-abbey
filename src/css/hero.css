@@ -82,8 +82,7 @@
     }
 }
 
-.hero-button:hover
-.hero-button:focus {
+.hero-button:hover {
     
     
     transform: translateY(-2px);

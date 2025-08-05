@@ -1,28 +1,63 @@
 .masters {
-    padding: 150px 0;
+    padding: 50px 0 140px;
     background: #cad0c8;
 }
 
 .masters-title {
-   font-family: var(--second-family);
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 119%;
+
+
+}
+.master-text {
+
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+text-align: center;
+
+}
+.masters-img {
+    width: 327px;
+    height: 218px;
+    box-shadow: -4px 4px 0 0 var(--green-color);
+    margin: 50px auto 35px;
+}
+@media screen and (min-width: 768px) {
+.masters {
+    padding: 34px 0;
+    
+}
+
+.masters-title {
+
 font-weight: 500;
 font-size: 48px;
 line-height: 121%;
-
-
 }
 .master-text {
 
 font-weight: 500;
 font-size: 32px;
 line-height: 100%;
-text-align: center;
+
 
 }
+
 .masters-img {
     width: 1200px;
     height: 550px;
-    box-shadow: -4px 4px 0 0 var(--green-color);
-  
-   margin: 50px auto 100px;
+    margin: 50px auto 100px;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+.masters {
+    padding: 150px 0;
+    
+}
+
 }
