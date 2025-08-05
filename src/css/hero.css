@@ -67,7 +67,7 @@
    background-image: url('/img/header/puppytalesphotos-puppytales.gif'); /* Doge PNG з прозорим фоном */
     background-size: contain;
     background-repeat: no-repeat;
-    animation: zoomOut  5s ease-in-out forwards;
+    animation: zoomOut  1.5s ease-in-out forwards;
   opacity: 0;
 }
 
@@ -138,8 +138,13 @@
     flex-direction: row;
     justify-content: space-between;
     
+  
     
-    
+}
+.hero-button {
+  
+    animation: zoomOut  5s ease-in-out forwards;
+  
 }
 
 }

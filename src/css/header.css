@@ -11,6 +11,9 @@
    
     
 }
+.logo-img-mobile {
+    margin-right: 240px;
+}
 .logo-img-deck {
     display: none;
 }
@@ -36,7 +39,7 @@
     font-size: 24px;
 
 
-    padding: 24px 0;
+    
 
 }
 .burger-icon {
@@ -132,6 +135,9 @@ background-color: #CAD0C8;
 @media screen and (min-width: 1280px) {
     .header {
         background-color: #CAD0C8;
+    }
+    .header-container {
+        padding: 24px 0;
     }
     .header-btn-burger {
         display: none;
