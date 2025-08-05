@@ -6,7 +6,25 @@
             <li class="services-item">
                 <h3 class="services-item-title">Washing the dogs</h3>
                 <div class="services-icon-circle">
-                    <img src="/img/services/wash-icon.png" alt="Washing the dogs" class="services-icon" />
+            <picture>
+               <source
+               srcset="/img/services/wash-icon-desk.webp 1x,
+               /img/services/wash-icon-desk-two.webp 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/img/services/wash-icon-mobile.webp 1x,
+              /img/services/wash-icon-mobile-two.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="/img/services/wash-icon-desk.webp" alt="Washing the dogs"
+             class="services-icon" 
+            />
+            </picture>
+
+
+                    
                 </div>
                
             </li>

@@ -1,58 +1,108 @@
 .services {
-    padding: 140px 24px;
-;
+    padding: 50px 0;
+
 }
 
 .services-title {
-    font-family: var(--second-family);
-font-weight: 500;
-font-size: 48px;
-line-height: 121%;
-margin-bottom: 100px;
-
-
-    
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 119%;
+margin-bottom: 50px;
 }
 .services-list {
-    
-
     display: flex;
     flex-wrap: wrap;
-    gap: 150px 300px;
+    gap: 50px;
 }
 .services-item {
-    padding: 34px 50px;
+    padding: 20px 58px;
     position: relative;
     display: inline-block;
    
-    width: 420px;
-    height: 100px;
+    width: 250px;
+    height: 60px;
     box-shadow: -4px 4px 0 0 var(--pink-color);
     background: var(--green-color);
 }
 .services-item-title {
     font-weight: 300;
-    font-size: 32px;
-    line-height: 100%;
+    font-size: 16px;
+    line-height: 125%;
     color: #fff;
-    margin-bottom: 16px;
+    
 }
 .services-icon-circle {
     position: absolute;
-    top: -50px;
+    top: -30px;
     right: 5px;
     transform: translateX(50%);
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: var(--pink-color);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.sevices-icon {
+    width: 30px;
+    height: 30px;
+}
 
 .services-item:hover {
    box-shadow: -4px 4px 4px 0 var(--green-color); 
 
      background: linear-gradient(90deg, var(--pink-color) 0%, var(--green-color) 100%); 
+}
+
+@media screen and (min-width: 768px) {
+.services {
+    padding: 34px 0;
+
+}
+.services-title {
+
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+margin-bottom: 100px;
+}
+.services-list {
+   
+    gap: 150px 300px;
+}
+.services-item {
+    padding: 34px 50px;
+    width: 420px;
+    height: 100px;
+}
+.services-item-title {
+    
+    font-size: 32px;
+    line-height: 100%;
+    
+}
+.services-icon-circle {
+    
+    top: -50px;
+    right: 5px;
+    transform: translateX(50%);
+    width: 100px;
+    height: 100px;
+    
+    
+
+
+    
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+.services {
+    padding: 140px 24px;
+
+}
+
 }

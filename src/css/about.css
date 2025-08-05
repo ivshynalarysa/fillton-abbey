@@ -1,6 +1,6 @@
 .about {
   
-    padding: 140px 0;
+    padding: 64px 0;
     background: rgba(43, 69, 37, 0.25);
     background-image: url(/img/masters/paws-paw.gif);
     background-size: contain;
@@ -10,26 +10,75 @@
 
 .about-container {
     display: flex;
-    flex-direction: row;
-    gap: 188px
+    flex-direction: column;
+    gap: 32px
     
 }
 .about-img-container {
-    height: 707px;
+    height: 224px;
+    width: 152px;
     box-shadow: -4px 4px 0 0 var(--green-color);
 }
 
 .about-description {
-    width: 634px;
-    font-family: var(--second-family);
+    
+    font-family: var(--general-font-family);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 160%;
-    color: var(--black-color);
+    font-size: 16px;
+    line-height: 150%;
+    
 
 }
 .about-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 119%;
+    margin-bottom: 28px;
+
+}
+.about-text {
+    margin-bottom: 28px;
     
+}
+.about-list {
+   
+    margin-bottom: 28px;
+    
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.about-item {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 34px 0;
+    }
+    .about-container {
+   
+    flex-direction: row;
+    gap: 188px
+    
+}
+   .about-img-container {
+    height: 694px;
+    width: 470px;
+    
+}
+
+.about-description {
+    width: 634px;
+    font-size: 20px;
+    line-height: 160%;
+}
+.about-title {
+    font-weight: 500;
     font-size: 48px;
     line-height: 121%;
     margin-bottom: 50px;
@@ -44,12 +93,13 @@
     margin-bottom: 50px;
     
     gap: 28px;
-    display: flex;
-    flex-direction: column;
+    
 }
-.about-item {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-    align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .about {
+        padding: 140px 0;
+    }
+
 }
