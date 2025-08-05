@@ -14,6 +14,7 @@ margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: center;
 }
 .services-item {
     padding: 20px 58px;
@@ -24,6 +25,9 @@ margin-bottom: 50px;
     height: 60px;
     box-shadow: -4px 4px 0 0 var(--pink-color);
     background: var(--green-color);
+}
+.services-item-left  {
+    box-shadow: 4px 4px 0 0 var(--pink-color);
 }
 .services-item-title {
     font-weight: 300;
@@ -44,6 +48,9 @@ margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.services-item .left {
+    right:  250px;
 }
 .sevices-icon {
     width: 30px;
@@ -69,7 +76,7 @@ line-height: 121%;
 margin-bottom: 100px;
 }
 .services-list {
-   
+   justify-content: flex-start;
     gap: 150px 300px;
 }
 .services-item {
@@ -91,10 +98,13 @@ margin-bottom: 100px;
     width: 100px;
     height: 100px;
     
-    
+}
+.services-item .left {
+    right: 5px;
+}
+.services-item-left {
+        box-shadow: -4px 4px 0 0 var(--pink-color);
 
-
-    
 }
 
 }
