@@ -16,13 +16,29 @@ everything to make your dog shine after the visit
         
        <div class="hero-img-container">
 
-        <img
-                src="/img/home/home.png"
+  <picture>
+            <source
+              srcset="/img/home/home-desk.webp 1x,
+              /img/home/home-desk-two.webp 2x"
+              media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/img/home/home-mobile.webp 1x,
+              /img/home/home-mobile-two.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+               src="/img/home/home-desk.webp"
                 alt="Hero Dog"
                 class="hero-image"
                 width="500"
                 height="700"
             />
+          </picture>
+
+
+       
        </div>
         
         
