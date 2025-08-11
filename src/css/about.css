@@ -2,10 +2,7 @@
   
     padding: 64px 0;
     background: rgba(43, 69, 37, 0.25);
-    background-image: url(/img/masters/paws-paw.gif);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 .about-container {

@@ -1,3 +1,34 @@
+import Swiper from "swiper";
+import { Pagination } from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+
+function initSwiper() {
+//const isMobile = window.matchMedia('(max-width: 767px').matches;
+const swiper = new Swiper('.swiper', {
+    modules: [Pagination],
+      spaceBetween: 30,
+      speed: 400,
+      //pagination: {
+      //  el: ".swiper-pagination",
+       // clickable: true,
+      })}
+document.addEventListener ('DOMContentLoaded', () => {
+    initSwiper ();
+})
+   // });
+//}
+
+  
+    
+    
+    
+    
+    
+    
+    
+
 //document.addEventListener("DOMContentLoaded", function () {
    // const viewAll = document.querySelector('.gallery-btn');
     //const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
@@ -26,21 +57,21 @@
 
     //updateGallery(); // Initial render
 //});
-const galleryItems = document.querySelectorAll('.gallery-item');
-console.log (galleryItems)
-let countView = 4;
-console.log (countView)
-function showImages() {
-    galleryItems.forEach((item, index) => {
-        if 
-        (index >= countView)
-        item.classList.add('hidden');
-        console.log (galleryItems)
-    });
-    console.log (galleryItems)
-}
-showImages ()
-const count = 5;
-console.log (count)
+//const galleryItems = document.querySelectorAll('.gallery-item');
+//console.log (galleryItems)
+//let countView = 4;
+//console.log (countView)
+//function showImages() {
+   // galleryItems.forEach((item, index) => {
+   //     if 
+   //     (index >= countView)
+   //     item.classList.add('hidden');
+   //     console.log (galleryItems)
+   // });
+   // console.log (galleryItems)
+//}
+//showImages ()
+//const count = 5;
+//console.log (count)
 
 
