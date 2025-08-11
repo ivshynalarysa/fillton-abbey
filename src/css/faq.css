@@ -1,18 +1,18 @@
 .faq {
-    padding: 140px 0;
+    padding: 50px 0;
 }
 
 .faq-title {
    font-family: var(--second-family);
-font-weight: 500;
-font-size: 48px;
-line-height: 121%;
+font-weight: 700;
+font-size: 32px;
+line-height: 119%;
     margin-bottom: 50px;
 }
 .faq-accordion {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
 }
 .ac { 
     margin-bottom: 0!important;
@@ -23,20 +23,13 @@ line-height: 121%;
 }
 .ac-trigger{
     color: #fff !important;
-    padding: 29px 33px!important;
+    padding: 20px 20px!important;
     font-family: var(--general-font-family)!important;
     display: flex!important;
     justify-content: space-between!important;
     font-weight: 300!important;
-    font-size: 32px!important;
-    line-height: 100%!important;
-    
-   
-    
-   
-
-    
-    
+    font-size: 16px!important;
+    line-height: 125%!important;
 }
 .ac-trigger::after {
     content: ''!important;
@@ -59,6 +52,8 @@ color: #fff;
 }
 .accordion-icon {
     stroke: #fff;
+    height: 16px;
+    width: 16px;
 }
 .ac.is-active {
    box-shadow: 0 4px 10px 0 #000!important;
@@ -70,12 +65,58 @@ color: #fff;
 }
 
 .ac-text {
-    padding: 25px 33px!important;
+    padding: 20px 20px!important;
     color: #fff!important;
     font-family: var(--general-font-family)!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+    line-height: 125%!important;
+    height: 168px!important;
+    
+}
+
+@media screen and (min-width: 768px) {
+.faq {
+    padding: 34px 0;
+}
+.faq-title {
+
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+
+}
+.faq-accordion {
+gap: 45px;
+}
+
+.ac-trigger{
+    
+    padding: 29px 33px!important;
+    font-size: 32px!important;
+    line-height: 100%!important;
+}
+.ac-text {
+    padding: 25px 33px!important;
+    
+    
     font-weight: 500!important;
     font-size: 20px!important;
     line-height: 160%!important;
     height: 180px!important;
     
+}
+.accordion-icon {
+    
+    height: 36px;
+    width: 36px;
+}
+}
+
+
+@media screen and (min-width: 1280px) {
+.faq {
+    padding: 140px 0;
+}
+
 }

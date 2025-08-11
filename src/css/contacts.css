@@ -1,31 +1,34 @@
 .contacts {
-    padding: 140px 0;
+    padding: 50px 0;
 }
 
 .contacts-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     
 }
 .contacts-title {
     font-family: var(--second-family);
-font-weight: 500;
-font-size: 48px;
-line-height: 121%;
-margin-bottom: 100px;
+font-weight: 700;
+font-size: 32px;
+line-height: 119%;
+margin-bottom: 50px;
 
 }
 .contacts-list {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
 }
 .contacts-item {
     
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     font-family: var(--second-family);
 font-weight: 500;
 font-size: 24px;
@@ -35,7 +38,7 @@ letter-spacing: 0.01em;
 }
 .contacts-text {
 
- width: 164px;
+ width: 45px;
 
 
 }
@@ -45,7 +48,7 @@ letter-spacing: 0.01em;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 45px;
 
 }
 .social-link {
@@ -79,8 +82,8 @@ border-bottom: 4px solid var(--green-color) ;
 }
 
 .contacts-form {
-    width: 380px;
-    height: 378px;
+    width: 326px;
+    height: 374px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -126,7 +129,7 @@ resize: none;
 }
 .contacts-form-btn {
     border: 1px solid #000;
-    width: 380px;
+    width: 327px;
     height: 56px;
     font-family: var(--second-family);
    font-weight: 500;
@@ -150,4 +153,61 @@ font-size: 16px;
 line-height: 150%;
 text-align: right;
 color: red;
+}
+
+@media screen and (min-width: 768px) {
+.contacts {
+    padding: 34px 0;
+}
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.contacts-title {
+
+font-weight: 500;
+font-size: 48px;
+line-height: 121%;
+margin-bottom: 100px;
+
+}
+.contacts-text {
+
+ width: 164px;
+
+
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 0;
+}
+
+.social-list { 
+    
+    gap: 60px;
+
+}
+
+.contacts-form {
+    width: 380px;
+    height: 378px;
+
+}
+.contacts-form-btn {
+    
+    width: 380px;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+.contacts {
+    padding: 140px 0;
+}
+
 }
