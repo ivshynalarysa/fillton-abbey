@@ -4,18 +4,34 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-function initSwiper() {
-//const isMobile = window.matchMedia('(max-width: 767px').matches;
-const swiper = new Swiper('.swiper', {
+let swiperInstance = null;
+function initSwiperIfMobile() {
+const isMobile = window.innerWidth <= 767;
+if (isMobile && !swiperInstance) {
+  swiperInstance = new Swiper('.swiper', {
     modules: [Pagination],
-      spaceBetween: 30,
+      spaceBetween: 20,
       speed: 400,
-      //pagination: {
-      //  el: ".swiper-pagination",
-       // clickable: true,
-      })}
+      pagination: {
+      el: ".swiper-pagination",
+      clickable: true,},
+    slidesPerView: 1,
+    loop: true,
+      });
+    }
+
+if (!isMobile && swiperInstance) {
+    swiperInstance.destroy(true, true);
+    swiperInstance = null;
+  }
+}
+
+
 document.addEventListener ('DOMContentLoaded', () => {
-    initSwiper ();
+    initSwiperIfMobile ();
+});
+window.addEventListener('resize', () => {
+    initSwiperIfMobile();
 })
    // });
 //}

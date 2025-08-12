@@ -1,13 +1,13 @@
 
 
 .hero {
-   padding: 28px 0 50px;
+   padding: 20px 0 50px;
 }
 .hero-description {
     display: flex;
     flex-direction: column;
     width: 228px;
-    margin-top: 28px;
+    margin-top: 24px;
     align-items: center;
 }
 .hero-title {
@@ -17,7 +17,7 @@
     font-size: 48px;
     line-height: 121%;
     color: var(--green-color);
-    margin-bottom: 28px;
+    margin-bottom: 24px;
     
 }
 
