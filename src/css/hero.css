@@ -1,13 +1,13 @@
 
 
 .hero {
-   padding: 20px 0 50px;
+   padding: 16px 0 50px;
 }
 .hero-description {
     display: flex;
     flex-direction: column;
     width: 228px;
-    margin-top: 24px;
+    margin-top: 20px;
     align-items: center;
 }
 .hero-title {
@@ -17,7 +17,7 @@
     font-size: 48px;
     line-height: 121%;
     color: var(--green-color);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     
 }
 
@@ -146,6 +146,11 @@
   
     animation: zoomOut  2s ease-in-out forwards;
   
+}
+.hero-button:hover {
+    background-image: url(''); /* Doge PNG з прозорим фоном */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 }

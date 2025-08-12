@@ -8,7 +8,7 @@ let swiperInstance = null;
 function initSwiperIfMobile() {
 const isMobile = window.innerWidth <= 767;
 if (isMobile && !swiperInstance) {
-  swiperInstance = new Swiper('.swiper', {
+  swiperInstance = new Swiper('.swiperGallery', {
     modules: [Pagination],
       spaceBetween: 20,
       speed: 400,
@@ -43,11 +43,19 @@ window.addEventListener('resize', () => {
     
 
 //document.addEventListener("DOMContentLoaded", function () {
-   // const viewAll = document.querySelector('.gallery-btn');
-    //const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
-    //const initialVisibleCount = 4;
-    //let isExpanded = false;
-   // console.log(galleryItems);
+//function galleryDesktop() {
+ //   const isDesktop = window.innerWidth >= 768;
+ //if (isDesktop) {
+//const viewAll = document.querySelector('.gallery-btn');
+//const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
+//const initialVisibleCount = 4;
+//let isExpanded = false;
+//console.log(galleryItems);
+
+// }
+
+//}
+   // 
 
    // function updateGallery() {
        // galleryItems.forEach((item, index) => {

@@ -58,14 +58,22 @@ font-size: 48px;
 line-height: 121%;
 
 }
+
 .gallery-list {
-    width: 1300px;
+    width: 1292px!important;
    display: flex;
    flex-direction: row;
     gap: 24px;
     margin: 50px auto 50px;
     flex-wrap: wrap;
 }
+.gallery-item {
+    width: auto!important;
+}
+.gallery-container {
+    padding: 0;
+}
+
 
 .gallery-btn {
 display: block;
@@ -76,7 +84,9 @@ text-decoration: underline;
 
 
 }
-
+.swiper-pagination {
+    display: none;
+}
 }
 
 @media screen and (min-width: 1280px) {
