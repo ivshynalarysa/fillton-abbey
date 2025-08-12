@@ -20,10 +20,7 @@ if (isMobile && !swiperInstance) {
       });
     }
 
-if (!isMobile && swiperInstance) {
-    swiperInstance.destroy(true, true);
-    swiperInstance = null;
-  }
+
 }
 
 
