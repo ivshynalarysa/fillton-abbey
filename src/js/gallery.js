@@ -23,9 +23,30 @@ if (isMobile && !swiperInstance) {
 
 }
 
+const isDesktop = window.innerWidth > 768;
+ 
+const viewAll = document.querySelector('.gallery-btn');
+const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+const countView = 4;
+let isExpanded = false;
+console.log(galleryItems);
+
+function showImages() {
+   galleryItems.forEach((item, index) => {
+       if 
+       (index >= countView)
+        item.classList.add('hidden');
+        console.log (galleryItems)
+    });
+    
+}
+
+
+
 
 document.addEventListener ('DOMContentLoaded', () => {
     initSwiperIfMobile ();
+    showImages ();
 });
 window.addEventListener('resize', () => {
     initSwiperIfMobile();
@@ -42,24 +63,17 @@ window.addEventListener('resize', () => {
     
     
 
-//document.addEventListener("DOMContentLoaded", function () {
-//function galleryDesktop() {
- //   const isDesktop = window.innerWidth >= 768;
- //if (isDesktop) {
-//const viewAll = document.querySelector('.gallery-btn');
-//const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
-//const initialVisibleCount = 4;
-//let isExpanded = false;
-//console.log(galleryItems);
 
-// }
 
-//}
-   // 
+
+
+
+
+
 
    // function updateGallery() {
        // galleryItems.forEach((item, index) => {
-        //    if (isExpanded || index < initialVisibleCount) {
+        //    if ( isDesktop || isExpanded || index < initialVisibleCount) {
         //        item.classList.add('show');
          //       item.classList.remove('hidden');
          //   } else {
@@ -82,15 +96,7 @@ window.addEventListener('resize', () => {
 //console.log (galleryItems)
 //let countView = 4;
 //console.log (countView)
-//function showImages() {
-   // galleryItems.forEach((item, index) => {
-   //     if 
-   //     (index >= countView)
-   //     item.classList.add('hidden');
-   //     console.log (galleryItems)
-   // });
-   // console.log (galleryItems)
-//}
+//
 //showImages ()
 //const count = 5;
 //console.log (count)
