@@ -1,5 +1,5 @@
 import Swiper from "swiper";
-import { Pagination } from "swiper/modules";
+import { Pagination, EffectFade } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
@@ -17,14 +17,15 @@ function initSwiperIfMobile() {
 const isMobile = window.innerWidth <= 767;
 if (isMobile && !swiperInstance) {
   swiperInstance = new Swiper('.swiperGallery', {
-    modules: [Pagination],
-      spaceBetween: 20,
-      speed: 400,
+    modules: [Pagination, EffectFade],
+      effect: "fade",
+      fadeEffect: {
+      crossFade: true,
+      },
       pagination: {
       el: ".swiper-pagination",
       clickable: true,},
-    slidesPerView: 1,
-    loop: true,
+      loop: true,
       });
       galleryItems.forEach(item => item.classList.remove('hidden'));
       viewAllBtn.style.display = 'none';}
