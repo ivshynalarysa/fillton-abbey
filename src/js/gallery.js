@@ -41,12 +41,25 @@ function showImages() {
        galleryItems.forEach((item, index) => {
        if 
        (index < visibleCount) { 
-        item.classList.remove('hidden');
+         // Поява фото по черзі від першого
+          if (item.classList.contains('hidden')) {
+              setTimeout(() => {
+              item.classList.remove('hidden');
+              },
+        (index % step) * 150);
         console.log (galleryItems)
        }
-       else {
-        item.classList.add('hidden');
+      }
+      else {
+         // Зникнення фото по черзі з кінця
+          if (!item.classList.contains('hidden')) {
+              const delayIndex = (galleryItems.length - 1 - index) % step;
+              setTimeout(() => {
+              item.classList.add('hidden');
+              }, 
+              delayIndex * 150);
        }
+      }
       });
 
       if (visibleCount >= galleryItems.length) {

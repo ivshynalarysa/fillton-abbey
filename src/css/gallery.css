@@ -64,13 +64,21 @@ line-height: 121%;
 }
 .gallery-item {
     width: auto!important;
+    transition: opacity 0.5s ease, transform 0.5s ease, height 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+} 
+.gallery-item.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
 }
 .gallery-container {
     padding: 0;
 }
-.gallery-item.hidden {
-    display: none;
-}
+
 
 
 
