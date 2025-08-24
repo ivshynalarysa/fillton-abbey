@@ -6,7 +6,7 @@ import 'swiper/css/effect-fade';
 
 let swiperInstance = null;
 const viewAllBtn = document.querySelector('.gallery-btn');
-const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
 const step = 4;
 let visibleCount = step;
 let isExpanded = false; //чи розгорнута галерея
@@ -81,11 +81,12 @@ function handleButtonClick() {
     if (visibleCount >= galleryItems.length) {
       visibleCount = galleryItems.length;
     }
+  }
     else { //Якщо розгорнуто – повертаємо до 4 фото
       visibleCount = step;
     }
     showImages();
-  }
+  
 }
 
 
