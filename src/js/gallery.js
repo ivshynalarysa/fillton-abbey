@@ -81,7 +81,7 @@ function handleButtonClick() {
 document.addEventListener ('DOMContentLoaded', () => {
     initSwiperIfMobile ();
     showImages ();
-    viewAllBtn.addEventListener('click', handleButtonClick())
+    viewAllBtn.addEventListener('click', handleButtonClick)
 });
 
 window.addEventListener('resize', () => {
