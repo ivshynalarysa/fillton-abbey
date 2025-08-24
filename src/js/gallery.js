@@ -5,6 +5,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 let swiperInstance = null;
+const viewAllBtn = document.querySelector('.gallery-btn');
+const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+const step = 4;
+let visibleCount = step;
+let isExpanded = false; //чи розгорнута галерея
+console.log(galleryItems);
+
+
 function initSwiperIfMobile() {
 const isMobile = window.innerWidth <= 767;
 if (isMobile && !swiperInstance) {
@@ -18,27 +26,53 @@ if (isMobile && !swiperInstance) {
     slidesPerView: 1,
     loop: true,
       });
+      galleryItems.forEach(item => item.classList.remove('hidden'));
+      viewAllBtn.style.display = 'none';}
+      else
+        if (!isMobile && swiperInstance) {
+          swiperInstance.destroy(true, true);
+          swiperInstance = null;
+        }
+        console.log (galleryItems);
     }
 
+function showImages() {
+  if (window.innerWidth > 767) {
+       galleryItems.forEach((item, index) => {
+       if 
+       (index < visibleCount) { 
+        item.classList.remove('hidden');
+        console.log (galleryItems)
+       }
+       else {
+        item.classList.add('hidden');
+       }
+      });
 
+      if (visibleCount >= galleryItems.length) {
+        viewAllBtn.textContent = 'Show less'
+        isExpanded = true;
+      }
+      else {
+        viewAllBtn.textContent = 'View all';
+        isExpanded = false;
+      }
+      viewAllBtn.style.display = 'block';
+  }
+  
 }
 
-const isDesktop = window.innerWidth > 768;
- 
-const viewAll = document.querySelector('.gallery-btn');
-const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
-const countView = 4;
-let isExpanded = false;
-console.log(galleryItems);
-
-function showImages() {
-   galleryItems.forEach((item, index) => {
-       if 
-       (index >= countView)
-        item.classList.add('hidden');
-        console.log (galleryItems)
-    });
-    
+function handleButtonClick() {
+  if (!isExpanded) {
+    visibleCount += step;
+    if (visibleCount > galleryItems.length) {
+      visibleCount = galleryItems.length;
+    }
+    else { //Якщо розгорнуто – повертаємо до 4 фото
+      visibleCount = step;
+    }
+    showImages();
+  }
 }
 
 
@@ -47,58 +81,13 @@ function showImages() {
 document.addEventListener ('DOMContentLoaded', () => {
     initSwiperIfMobile ();
     showImages ();
+    viewAllBtn.addEventListener('click', handleButtonClick)
 });
+
 window.addEventListener('resize', () => {
     initSwiperIfMobile();
+    if (!swiperInstance) {
+      showImages();
+    }
 })
-   // });
-//}
-
-  
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-   // function updateGallery() {
-       // galleryItems.forEach((item, index) => {
-        //    if ( isDesktop || isExpanded || index < initialVisibleCount) {
-        //        item.classList.add('show');
-         //       item.classList.remove('hidden');
-         //   } else {
-         //       item.classList.add('hidden');
-          //      item.classList.remove('show');
-         //   }
-       // });
-
-        //viewAll.textContent = isExpanded ? "Show Less" : "View All";
-   // }
-
-    //viewAll.addEventListener('click', () => {
-     //   isExpanded = !isExpanded;
-     //   updateGallery();
-    //});
-
-    //updateGallery(); // Initial render
-//});
-//const galleryItems = document.querySelectorAll('.gallery-item');
-//console.log (galleryItems)
-//let countView = 4;
-//console.log (countView)
-//
-//showImages ()
-//const count = 5;
-//console.log (count)
-
-
+   

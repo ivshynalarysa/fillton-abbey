@@ -20,12 +20,7 @@ line-height: 119%;
     
 }
 
-.gallery-btn {
-    
-display: none;
 
-
-}
 
 .swiper-pagination-color {
     color: var(--green-color)!important;
