@@ -68,6 +68,10 @@ line-height: 121%;
 .gallery-container {
     padding: 0;
 }
+.gallery-item.hidden {
+    display: none;
+}
+
 
 
 .gallery-btn {

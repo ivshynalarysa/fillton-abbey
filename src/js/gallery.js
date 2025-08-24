@@ -65,7 +65,7 @@ function showImages() {
 function handleButtonClick() {
   if (!isExpanded) {
     visibleCount += step;
-    if (visibleCount > galleryItems.length) {
+    if (visibleCount >= galleryItems.length) {
       visibleCount = galleryItems.length;
     }
     else { //Якщо розгорнуто – повертаємо до 4 фото
@@ -81,7 +81,7 @@ function handleButtonClick() {
 document.addEventListener ('DOMContentLoaded', () => {
     initSwiperIfMobile ();
     showImages ();
-    viewAllBtn.addEventListener('click', handleButtonClick)
+    viewAllBtn.addEventListener('click', handleButtonClick())
 });
 
 window.addEventListener('resize', () => {
