@@ -7,7 +7,7 @@ import 'swiper/css/effect-fade';
 let swiperInstance = null;
 const viewAllBtn = document.querySelector('.gallery-btn');
 const galleryItems = Array.from(document.querySelectorAll('.gallery-list .gallery-item'));
-const step = 4;
+const step = 2;
 let visibleCount = step;
 let isExpanded = false; //чи розгорнута галерея
 console.log(galleryItems);
@@ -77,17 +77,42 @@ function showImages() {
 
 function handleButtonClick() {
   if (!isExpanded) {
+    const previousVisibleCount = visibleCount;
     visibleCount += step;
     if (visibleCount >= galleryItems.length) {
       visibleCount = galleryItems.length;
     }
-  }
-    else { //Якщо розгорнуто – повертаємо до 4 фото
-      visibleCount = step;
-    }
+
     showImages();
-  
+
+    // Прокрутка до першого нового відкритого фото
+    const firstNewItem = galleryItems[previousVisibleCount];
+    if (firstNewItem) {
+      const itemTop = firstNewItem.getBoundingClientRect().top + window.pageYOffset;
+      const offset = 140;
+
+      window.scrollTo({
+        top: itemTop - offset,
+        behavior: 'smooth'
+      });
+    }
+  } else {
+    visibleCount = step;
+
+    // Прокрутка до першого фото при "Показати менше"
+    const firstItem = galleryItems[0];
+    const itemTop = firstItem.getBoundingClientRect().top + window.pageYOffset;
+    const offset = 120;
+
+    window.scrollTo({
+      top: itemTop - offset,
+      behavior: 'smooth'
+    });
+
+    showImages();
+  }
 }
+
 
 
 

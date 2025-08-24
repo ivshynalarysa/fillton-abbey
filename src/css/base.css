@@ -27,14 +27,14 @@ html {scroll-behavior: smooth;}
 }
 @media only screen and (min-width: 768px){
     [id] { 
-        scroll-margin-top: 20px;
+        scroll-margin-top: 10px;
 
     }
 }
 
 @media only screen and (min-width: 1200px){
     [id] { 
-        scroll-margin-top: 40px;
+        scroll-margin-top: px;
 
     }
 }
