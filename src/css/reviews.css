@@ -14,7 +14,7 @@
 
 .reviews-item {
     position: relative;
-    width: 328px!important;
+    
     height: auto!important;
     padding-left: 90px;
     margin-right: 0!important;
@@ -45,7 +45,7 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 160%;
-    width: 250px!important;
+    
 
 }
 .reviews-author {
