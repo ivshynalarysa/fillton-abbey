@@ -11,7 +11,7 @@ function initSwiperReviews() {
     swiperInstance = new Swiper('.swiperReviews', {
     modules: [Navigation],
       speed: 600,
-      spaceBetween: 30,
+      spaceBetween: 2,
       
      navigation: {
         nextEl: ".swiper-button-next",

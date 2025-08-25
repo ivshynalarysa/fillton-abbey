@@ -11,9 +11,7 @@
     margin-bottom: 50px;
 
 }
-.reviews-list {
-    gap: 40px;
-}
+
 .reviews-item {
     position: relative;
     width: 328px!important;
