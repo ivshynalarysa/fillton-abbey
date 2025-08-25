@@ -12,15 +12,14 @@
 
 }
 .reviews-list {
-    
-    gap: 424px;
-
+    gap: 40px;
 }
 .reviews-item {
     position: relative;
     width: 328px!important;
-    height: 242px!important;
-    padding-left: 70px;
+    height: auto!important;
+    padding-left: 90px;
+    margin-right: 0!important;
     
 }
 .reviews-item::before {
@@ -32,7 +31,7 @@
     background-repeat: no-repeat;
     background-position: center;
     content: "";
-    width: 50px;
+    width: 60px;
     height: 40px;
     
     
@@ -56,8 +55,28 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 160%;
+    margin-bottom: 88px;
     
 }
+.reviews-btn {
+    margin-top: 88px;
+    
+}
+.swiper-button-next,
+.swiper-button-prev {
+color: var(--green-color)!important;
+
+top: var(--swiper-navigation-top-offset, 300px)!important;
+
+}
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 110px)!important;
+}
+.swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 110px)!important;
+}
+
+
 
 @media screen and (min-width: 768px) {
 .reviews {
@@ -83,6 +102,15 @@
 }
 .reviews-text {
     width: 334px!important;
+}
+.reviews-btn {
+    display: none;
+    
+}
+.reviews-list {
+    
+    gap: 424px;
+
 }
 
 }
