@@ -1,5 +1,5 @@
 .reviews {
-    padding: 50px 0;
+    padding: 50px 0 100px;
     background:#cad0c8 ;
 }
 
@@ -53,7 +53,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 160%;
-    margin-bottom: 88px;
+    
     
 }
 .reviews-btn {
@@ -64,7 +64,7 @@
 .swiper-button-prev {
 color: var(--green-color)!important;
 
-top: var(--swiper-navigation-top-offset, 300px)!important;
+top: var(--swiper-navigation-top-offset, 314px)!important;
 
 }
 .swiper-button-next {
