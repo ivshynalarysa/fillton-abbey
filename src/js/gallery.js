@@ -87,10 +87,10 @@ function handleButtonClick() {
     showImages();
 
     // Прокрутка до першого нового відкритого фото
-    const firstNewItem = galleryItems[previousVisibleCount];
+    const firstNewItem = galleryItems[visibleCount];
     if (firstNewItem) {
       const itemTop = firstNewItem.getBoundingClientRect().top + window.pageYOffset;
-      const offset = 140;
+      const offset = 160;
 
       window.scrollTo({
         top: itemTop - offset,
