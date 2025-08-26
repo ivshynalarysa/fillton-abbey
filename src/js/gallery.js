@@ -78,17 +78,18 @@ function showImages() {
 
 function handleButtonClick() {
   if (!isExpanded) {
-   
+    const previousVisibleCount = visibleCount;
     visibleCount += step;
     if (visibleCount >= galleryItems.length) {
       visibleCount = galleryItems.length;
     }
-     const previousVisibleCount = visibleCount;
-console.log (previousVisibleCount)
+
     showImages();
 
     // Прокрутка до першого нового відкритого фото
-    const firstNewItem = galleryItems[previousVisibleCount];
+    const firstNewItemIndex = previousVisibleCount;
+    const firstNewItem = galleryItems[firstNewItemIndex];
+
     if (firstNewItem) {
       const itemTop = firstNewItem.getBoundingClientRect().top + window.pageYOffset;
       const offset = 150;
