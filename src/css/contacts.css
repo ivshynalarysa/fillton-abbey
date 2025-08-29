@@ -38,8 +38,17 @@ letter-spacing: 0.01em;
 
 }
 .contacts-item-email {
- display: flex;
+ 
  flex-wrap: wrap;
+ 
+}
+
+.contacts-email {
+margin: 0 auto;
+}
+.contacts-item-social {
+   flex-wrap: wrap; 
+   gap: 0 50px;
 }
 
 .social-list { 
@@ -48,6 +57,7 @@ letter-spacing: 0.01em;
     align-items: center;
     justify-content: center;
     gap: 45px;
+    margin: 0 auto;
 
 }
 .social-link {
