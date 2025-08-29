@@ -35,8 +35,12 @@ font-size: 24px;
 line-height: 150%;
 letter-spacing: 0.01em;
 
-}
 
+}
+.contacts-item-email {
+ display: flex;
+ flex-wrap: wrap;
+}
 
 .social-list { 
     display: flex;
@@ -95,6 +99,7 @@ font-size: 24px;
 line-height: 150%;
 letter-spacing: 0.01em;
 outline: transparent;
+color: #000;
 
 
 }
@@ -111,12 +116,20 @@ line-height: 150%;
 letter-spacing: 0.01em;
 outline: transparent;
 resize: none;
+color: #000;
 
 }
-.form-user-input:focus .form-user-input:hover {
-    border: 1px solid var(--green-color);
-    color: var(--green-color);
+.form-user-input:focus,
+.form-user-input:hover {
+    border: 1px solid #2b4525;
+    color: #2b4525;
     
+
+}
+.form-user-textarea:focus,
+.form-user-textarea:hover {
+    border: 1px solid #2b4525;
+    color: #2b4525;
 
 }
 .form-group {
@@ -150,6 +163,27 @@ font-size: 16px;
 line-height: 150%;
 text-align: right;
 color: red;
+opacity: 0;
+}
+.invalid-input.active {
+    opacity: 1;
+}
+.input.error,
+.textarea.error {
+    border: 1px solid red;
+    color: red;
+}
+.success-message {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--green-color);
+    opacity: 0;
+}
+.success-message.active {
+    opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
