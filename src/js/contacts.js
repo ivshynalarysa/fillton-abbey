@@ -1,38 +1,46 @@
-import iziToast from "izitoast";
+//import iziToast from "izitoast";
 // Ініціалізація EmailJS
-emailjs.init("YOUR_PUBLIC_KEY"); // заміни на свій PUBLIC KEY
+//emailjs.init("YOUR_PUBLIC_KEY"); // заміни на свій PUBLIC KEY
 
 const form = document.getElementById('contact-form');
-const emailInput = form.nextElementSibling.from_email;
-const nameInput = form.nextElementSibling.from_name;
-const messageInput = form.nextElementSibling.from_message;
-const errorMSG = document.querySelectorAll('.invalid-input');
+const emailInput = document.getElementById('email');
+const nameInput = document.getElementById('name');
+const messageTextarea = document.getElementById('message');
+const invalidName = document.getElementById('name-error');
+const invalidEmail = document.getElementById('email-error');
+const invalidMessage = document.getElementById('message-error');
 const successMsg = document.getElementById('success-message');
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    // Clear previous invalid input messages
-    invalidInputs.forEach((input) => {
-        input.style.opacity = 0;
-    });
+    
 
     // Validate form fields
     let isValid = true;
 
-    if (!nameInput.value.trim()) {
+    nameInput.classList.remove('input-error');
+    emailInput.classList.remove('input-error');
+    messageTextarea.classList.remove('textarea-error');
+
+    if (nameInput.value.trim() === '') {
         isValid = false;
-        nameInput.nextElementSibling.style.opacity = 1;
+        nameInput.classList.add('input-error');
+        invalidName.classList.add('active');
     }
 
-    if (!emailInput.value.trim()) {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(emailInput.value.trim())) {
         isValid = false;
-        emailInput.nextElementSibling.style.opacity = 1;
+        emailInput.classList.add('input-error');
+        invalidEmail.classList.add('active');
     }
 
-    if (!messageInput.value.trim()) {
+    if (messageTextarea.value.trim()) {
         isValid = false;
-        messageInput.nextElementSibling.style.opacity = 1;
+        messageTextarea.classList.add('textarea-error');
+        invalidMessage.classList.add('active');
+        
     }
 
     if (isValid) {
@@ -40,12 +48,3 @@ form.addEventListener('submit', (event) => {
         console.log('Form submitted successfully!');
     }
 });
-emailInput.addEventListener('input', () => {
-    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const email = emailInput.value.trim();
-    if (pattern.test(email)) {
-        errorMSG.style.opacity = 0;
-    } else {
-        errorMSG.style.opacity = 1;
-    }
-})
