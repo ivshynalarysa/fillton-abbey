@@ -130,18 +130,13 @@ color: #000;
 
 }
 .form-user-input:focus,
-.form-user-input:hover {
+.form-user-textarea:focus {
     border: 1px solid #2b4525;
     color: #2b4525;
     
 
 }
-.form-user-textarea:focus,
-.form-user-textarea:hover {
-    border: 1px solid #2b4525;
-    color: #2b4525;
 
-}
 .form-group {
     height: 56px;
 }
@@ -174,15 +169,16 @@ font-size: 16px;
 line-height: 150%;
 text-align: right;
 color: red;
-    opacity: 0;
+    display: none;
+    
 }
 .invalid-input.active {
-    opacity: 1;
+    display: block;
 }
 .input-error,
 .textarea-error {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid red!important;
+    color: red!important;
 }
 .success-message {
     font-family: var(--second-family);
@@ -191,10 +187,10 @@ color: red;
     line-height: 150%;
     text-align: center;
     color: var(--green-color);
-    opacity: 0;
+    display: none;
 }
 .success-message.active {
-    opacity: 1;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {

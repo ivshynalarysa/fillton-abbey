@@ -1,6 +1,9 @@
 //import iziToast from "izitoast";
+//import emailjs from "@emailjs/browser";
 // Ініціалізація EmailJS
-//emailjs.init("YOUR_PUBLIC_KEY"); // заміни на свій PUBLIC KEY
+//function(){
+// emailjs.init("YOUR_PUBLIC_KEY"); 
+// })();// заміни на свій PUBLIC KEY
 
 const form = document.getElementById('contact-form');
 const emailInput = document.getElementById('email');
@@ -16,16 +19,23 @@ form.addEventListener('submit', (event) => {
 
     
 
-    // Validate form fields
-    let isValid = true;
+   ;
 
     nameInput.classList.remove('input-error');
     emailInput.classList.remove('input-error');
     messageTextarea.classList.remove('textarea-error');
+    
+    invalidName.classList.remove('active');
+    invalidEmail.classList.remove('active');
+    invalidMessage.classList.remove('active');
+    successMsg.classList.remove('active');
+
+    let isValid = true;
 
     if (nameInput.value.trim() === '') {
         isValid = false;
         nameInput.classList.add('input-error');
+        
         invalidName.classList.add('active');
     }
 
@@ -36,7 +46,7 @@ form.addEventListener('submit', (event) => {
         invalidEmail.classList.add('active');
     }
 
-    if (messageTextarea.value.trim()) {
+    if (messageTextarea.value.trim() === '') {
         isValid = false;
         messageTextarea.classList.add('textarea-error');
         invalidMessage.classList.add('active');
@@ -46,5 +56,24 @@ form.addEventListener('submit', (event) => {
     if (isValid) {
         // Submit the form or perform desired action
         console.log('Form submitted successfully!');
+        emailjs
+            .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form)
+            .then(() => {
+                successMsg.textContent = 'Message sent successfully!';
+                successMsg.style.color = 'var(--color-green)';
+                form.reset();
+            })
+            .catch((error) => {
+                console.error('EmailJS error:', error);
+                successMsg.textContent = 'Failed to send message. Please try again later.';
+                successMsg.style.color = 'red';
+            });
     }
 });
+
+        
+        
+    
+
+
+
