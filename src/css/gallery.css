@@ -57,7 +57,7 @@ line-height: 121%;
    display: flex;
    flex-direction: row;
     gap: 24px;
-    margin: 50px auto 50px;
+    margin: 50px auto 32px;
     flex-wrap: wrap;
 }
 .gallery-item {
