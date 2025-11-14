@@ -22,22 +22,22 @@ line-height: 119%;
 }
 .gallery-caption-before {
     position: absolute;
-    right: 45px;
-    top: 20px;
+    right: 16px;
+    top: 16px;
         background-color: #CAD0C8;
     padding: 5px 10px;
     border-radius: 8px;
    font-family: var(--second-family);
-   font-size: 42px;
+   font-size: 24px;
    font-weight: 700;
 }
 
 .gallery-caption-after {
     position: absolute;
-    right: 45px;
-    top: 20px;
+    right: 16px;
+    top: 16px;
      font-family: var(--second-family);
-   font-size: 42px;
+   font-size: 24px;
    font-weight: 700;
     background-color: #CAD0C8;
     padding: 5px 10px;
@@ -97,6 +97,29 @@ line-height: 121%;
     pointer-events: none;
     height: 0;
     overflow: hidden;
+}
+.gallery-caption-before {
+   
+    right: 45px;
+    top: 20px;
+     
+    padding: 5px 10px;
+    border-radius: 8px;
+  
+   font-size: 42px;
+   font-weight: 700;
+}
+
+.gallery-caption-after {
+   
+    right: 45px;
+    top: 20px;
+    
+   font-size: 42px;
+   font-weight: 700;
+   
+    padding: 5px 10px;
+    border-radius: 8px;
 }
 .gallery-container {
     padding: 0;
