@@ -17,7 +17,32 @@ line-height: 119%;
    margin: 50px auto 50px;
     
 }
+.gallery-item {
+    position: relative;
+}
+.gallery-caption-before {
+    position: absolute;
+    right: 45px;
+    top: 20px;
+        background-color: #CAD0C8;
+    padding: 5px 10px;
+    border-radius: 8px;
+   font-family: var(--second-family);
+   font-size: 42px;
+   font-weight: 700;
+}
 
+.gallery-caption-after {
+    position: absolute;
+    right: 45px;
+    top: 20px;
+     font-family: var(--second-family);
+   font-size: 42px;
+   font-weight: 700;
+    background-color: #CAD0C8;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
 
 
 .swiper-pagination-color {
