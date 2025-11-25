@@ -98,6 +98,24 @@ line-height: 121%;
     height: 0;
     overflow: hidden;
 }
+.gallery-image-big {
+    width: 798px;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.gallery-image-small {
+    width: 470px;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
 .gallery-caption-before {
    
     right: 45px;
