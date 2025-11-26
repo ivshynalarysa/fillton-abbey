@@ -17,7 +17,8 @@ margin-bottom: 50px;
     justify-content: center;
 }
 .services-item {
-    padding: 20px 58px;
+    padding: 20px 30px;
+    
     position: relative;
     display: inline-block;
    
@@ -70,6 +71,112 @@ margin-bottom: 50px;
      background: linear-gradient(90deg, var(--green-color) 0%, var(--pink-color) 100%); 
 }
 
+.services-washing { 
+    position: relative;
+    display: inline-block;
+}
+.services-washing::after {
+    content: 'Bath and Blow Dry Only: £25';
+    position: absolute;
+    width: 400px;
+opacity: 0;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+   }
+   
+
+   .services-washing:hover {
+    color: transparent;
+   }
+    .services-washing:hover::after {
+     opacity: 1;
+     color: #fff;
+     
+    
+    }
+    .services-item-puppy:hover {
+    padding: 24px 10px;
+    height: 120px;
+   }
+.services-puppy { 
+    position: relative;
+    display: inline-block;
+}
+.services-puppy::after {
+    content: 'Gentle wash and dry, trim, clipping out of paw pads and cutting nails. Only for 6 months plus. From £25';
+    position: absolute;
+    width: 240px;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+   }
+   .services-puppy:hover {
+    color: transparent;
+   }
+    .services-puppy:hover::after {
+     opacity: 1;
+     color: #fff;
+     
+    }
+    .services-grooming { 
+    position: relative;
+    display: inline-block;
+    }  
+.services-grooming::after {
+    content: 'FULL GROOM: Includes wash, cut, ear cleaning, blow dry and nails from £35 depending on dog breed and size as well as condition of fur i.e. matting can increase pricing. -------------------------------------------------------------SHORT HAIR GROOMS: Smooth/short coat includes ear cleaning, wash and blow dry as well as nail. From £30'; 
+    position: absolute;
+    width: 220px;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+   }
+   .services-grooming:hover{
+    color: transparent;
+   }
+   .services-grooming:hover::after {
+    opacity: 1;
+    color: #fff;
+    
+   }
+
+   .services-grooming:hover {
+    color: transparent;
+   }
+    .services-grooming:hover::after {
+     opacity: 1;
+     color: #fff;
+     
+    }
+    .services-item-grooming:hover {
+    padding: 24px 16px;
+    height: 260px;
+   }
+.services-nails { 
+    position: relative;
+    display: inline-block;
+}
+.services-nails::after {
+    content: 'Nail Clipping: £10';
+    position: absolute;
+    width: 300px;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+   }
+   .services-nails:hover {
+    color: transparent;
+   }
+    .services-nails:hover::after {
+     opacity: 1;
+     color: #fff;
+     
+   
+}
+
 @media screen and (min-width: 768px) {
 .services {
     padding: 34px 0;
@@ -91,6 +198,26 @@ margin-bottom: 100px;
     width: 420px;
     height: 100px;
 }
+.services-item-washing:hover {
+    width: 486px;
+   }
+.services-item-puppy:hover {
+    padding: 24px 60px;
+    height: 260px;
+   }
+   .services-puppy::after {
+   
+    width: 300px;
+    
+   }
+   .services-grooming::after {
+    width: 340px;
+    
+   }
+.services-item-grooming:hover {
+    padding: 24px 40px;
+    height: 520px;
+   }    
 .services-item-title {
     
     font-size: 32px;
