@@ -1,11 +1,13 @@
 {
-  "name": "fillton-abbey",
+  "name": "filton-abbey",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+    "homepage": "https://filtonabbeywoof.co.uk/filton-abbey/",
+    
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/fillton-abbey/",
+    "build": "vite build --base=/filton-abbey/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
@@ -27,6 +29,6 @@
     "swiper": "^11.2.10",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  },
-  "homepage": "https://filtonabbeywoof.co.uk"
+  }
+  
 }
