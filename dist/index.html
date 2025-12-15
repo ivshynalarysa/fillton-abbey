@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/filton-abbey/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filton Abbey Woof</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
+      rel="stylesheet">
+    <script type="module" crossorigin src="/filton-abbey/assets/index-CcQIfr8x.js"></script>
+    <link rel="stylesheet" crossorigin href="/filton-abbey/assets/index-DT0B3Wu3.css">
+    <link rel="stylesheet" crossorigin href="/filton-abbey/assets/styles-CWv5MRXv.css">
+  </head>
+  <body>
+    
+       <header class="header"> 
+    <div class="container header-container">  
+    
+       <a href="#home">
+  <img
+            src="/filton-abbey/assets/logo-D9c5C2Aa.png"
+            alt="Filton Abbey Woof Logo"
+            width="88"
+            height="100"
+            class="logo-img-deck"
+        />
+       </a> 
+      <a href="#home">
+  <img
+            src="data:image/webp;base64,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"
+            alt="Filton Abbey Woof Logo"
+            width="52"
+            height="60"
+            class="logo-img-mobile"
+        />
+       </a> 
+        <div class="meme-dog"></div>
+        <nav class="header-nav">
+            <ul class="header-list">
+               
+                <li class="header-item">
+                    <a href="#about" class="header-link">About</a>
+                </li>
+                <li class="header-item">
+                    <a href="#services" class="header-link">Services</a>
+                </li>
+                <li class="header-item">
+                    <a href="#gallery" class="header-link">Gallery</a>
+                </li>
+                <li class="header-item">
+                    <a href="#reviews" class="header-link">Reviews</a>
+                </li>
+                <li class="header-item">
+                    <a href="#faq" class="header-link">FAQ</a>
+                </li>
+                <li class="header-item">
+                    <a href="#footer" class="header-link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="header-btn-burger" data-menu-handler>
+            <svg class="burger-icon" 
+                width="32" 
+                height="32">  
+               <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-burger"></use> 
+            
+            </svg>
+        </button>
+        
+        </div>
+</header>
+<!--mobile menu-->
+
+<div class="mobile-menu" data-menu>
+  <div class="container mobile-menu-container">
+   
+    <button class="mobile-menu-close" type="button" data-menu-handler>
+      <svg class="svg-icon-close" width="32" height="32">
+        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <div class="menu-wrapper">
+      <ul class="mobile-nav-menu">
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#about" data-menu-handler
+            >About</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#services" data-menu-handler
+            >Services</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#gallery" data-menu-handler
+            >Gallery</a>
+        </li>
+        <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#reviews" data-menu-handler
+            >Reviews</a>
+        </li>
+         <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#faq" data-menu-handler
+            >FAQ</a>
+        </li>
+         <li class="mobile-nav-list">
+          <a class="mobile-nav-link" href="#footer" data-menu-handler
+            >Contacts</a>
+        </li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+
+  
+
+
+    
+    
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero" id="home">
+    <div class="container hero-container">
+        <div class="hero-description">
+ <h1 class="hero-title">Perfect <span class="hero-color">care for your </span>pet</h1>
+        
+        <p class="hero-text">
+            
+High quality, gentleness, and professionalism — <br/> 
+everything to make your dog shine after the visit
+
+        </p>
+        <a href="#footer"  class="hero-button">Silently adore!</a>
+
+        </div>
+
+        
+       <div class="hero-img-container">
+
+  <picture>
+            <source
+              srcset="/filton-abbey/assets/home-desk-tfYfGemP.webp 1x, /filton-abbey/assets/home-desk-two-211Sic0b.webp 2x"
+              media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/filton-abbey/assets/home-mobile-Bk8Vq1lG.webp 1x, /filton-abbey/assets/home-mobile-two-ovTb1Xzq.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+               src="/filton-abbey/assets/home-desk-tfYfGemP.webp"
+                alt="Hero Dog"
+                class="hero-image"
+                
+            />
+          </picture>
+
+
+       
+       </div>
+        
+        
+    </div>
+</section>
+      <section class="about" id="about">
+    <div class="container about-container">
+        <div class="about-img-container">
+            <picture>
+               <source
+               srcset="/filton-abbey/assets/about-desk-DSdhjK3-.webp 1x, /filton-abbey/assets/about-desk-two-BiQELr5T.webp 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/filton-abbey/assets/about-mobile-DsDicbNY.webp 1x, /filton-abbey/assets/about-mobile-two-CAmI-Xli.webp 2x"
+              media="(max-width: 767px)"
+            />
+        <img src="/filton-abbey/assets/about-desk-DSdhjK3-.webp" alt="Happy Dog" class="about-img"
+            />
+          </picture>
+
+
+           
+        </div>
+        <div class="about-description">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-text">
+              Hello! <br/>
+              I am the heart of “Filton Abbey Woof”, an establishment where dogs are groomed with patience, skill and genuine care.<br/>
+              The grooming salon is designed to make your pet not only look flawless, but also feel calm, cozy and loved.<br/>
+              I believe that beauty begins with care - that's why:
+            </p>
+            <ul class="about-list">
+                <li class="about-item">
+                    <svg class="about-icon" width="32" height="32">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-paws"></use>
+                    </svg>
+                 
+                    We use predominantly natural products</li>
+                <li class="about-item">
+                    <svg class="about-icon" width="32" height="32">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-paws"></use>
+                    </svg>
+                    We work without stress - with adaptation for anxious dogs</li>
+                <li class="about-item">
+                    <svg class="about-icon" width="32" height="32">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-paws"></use>
+                    </svg>
+                    We offer an individual approach to each pet</li>
+                <li class="about-item">
+                   <svg class="about-icon" width="32" height="32">
+                       <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-paws"></use>
+                   </svg>
+                   We do not deal with anal glands, as this procedure is best
+                   performed by veterinary specialists</li>
+            </ul>
+            <p class="about-text">
+             I have a college degree in dog grooming in which I got a distinction grade.
+             I share values of sustainable business.
+             Dog owners are my clients, whom I sincerely love.</p>
+             <p class="about-text">
+              Filton Abbey Woof is not just a grooming salon.
+              This is a place where dogs feel comfortable, and their owners are sure that they are in the right hands.  
+             </p>
+        </div>
+    </div>
+</section>
+      <section class="services" id="services">
+    <div class="container">
+        <h2 class="services-title">Services</h2>
+        <ul class="services-list">
+
+            <li class="services-item services-item-washing">
+                <h3 class="services-item-title services-washing">Washing the dogs</h3>
+                <div class="services-icon-circle right">
+            <picture>
+               <source
+               srcset="data:image/webp;base64,UklGRs4EAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSHkEAAABoLZt2xlJntH1vO+b5sysbdu2bdu2bdu2bdu2bWvUPqZTee8PlUpX0hsRE8D/vRm0hmFiRuuBP6VS38sLg6taYLexiord/ZL0zkxYpYIbHTXYP6NBy76K0ln46phNrNqYxfUq9Z36eUNlj+IqYsZBqr3NlroihyxlRqWjZ8WqENijN+oi/FnaNa9LHaFldKp3FyrFMemSOPg61a/TmeNpLZH3uWbAc7AyLV0Gl0lawfGtlsUD32uavAe0KpjjAy1XxtLSs1GtPK7VDKBXSd6xOoT67zV9GVdpHT7S0uygO+tMg+SvrzsAQ5Eyt9F/a015D3RKeNyaeq/BRBrA8LvqlVL4LmodHDyTvY2jW8sG5t9368TzQ9zd2dTSTK6MhK0vAfAoHX3w29k38IokLexmlfa/Q9lVlGvgAELL35KyK2xSZbvfrS9AUdK5WDkFA/MfuJX6YFzt9nHaijX00S6bdppR5Z+1ehgl6Rn4SUtTpgE2FGeLKSNh+8Xxu6gLX0LgqGcu7PTFEm5TFvunAjhYMWoRs2b5iVS/lCvi+T7Tfh+n+uHJtwakHT+MWss3i/HpG/NeHZVYAR6q9SeOw1JJ+nYax7bSxK5Js+o3PI9qOwCrMyaIADDtwnO248FOix9Qb4AVW0xPgm2pnYDAnh98c+uUrm1UG8d9/clWeADDSNUBhMle/25vfKF2aTY8s2KE0Kf63YEuSfGNOV/89auzvDee00rgJlVUdgOF7aKaxixm4KA3/WmuqY6Xvvjxm+yvqeZNa8rdwDhYywFP6+JZpbZCjhOk44GJPx6X/oEz21hSVOLcbOpee5LZHpRWhCkNeEvL8ZGsEM7o2PSnnveVSRsYwB6zTvzR+4DNh8OxVRx8bXAeDFaP+o3WUMgMfo6Sslf9ttQZBEgo+G0qrcPyY8/hQKmNwgl7/5um/XMm873mHEZTbTmtmxgXS5oVC8X4MCpGPIaj6YYHx/QvZepwDPGD7ukhoZKOW+O7NPS01hutFWZQobU1weFnHa1hODhBkv6cw0+v2NvVXXBC1t9d1a6Bmqb9IjuNwvtpM6p7avxUKVboZO1Z4GeVZAxoUME1rUet5Tg04brs33nmmCt/QaxYt1rDqHnnavocc/8Xr+PfTAVvZkio1DiawO5Kn38z98vZmnDlO282+/lUexOwVv1DQxuao8R/1G5Au0Y3YmiU+Z/aacaulbASbtt1z/xNB5rl2vai2H9FzstUMKqlObyuRXI66lrVXcDc+Sef1Pj0Da1JH2t2oEstdaSZNcIo3qxMAVCN3N80pTWqoltZ34DNoJ/yLtWRVQpELWfY0bokx6bVeCprjj/jOwDjNKvVwb9xNV8JD6xTy7oJuNX0G/luSQ3iq9D23lep9D4Bj7SU5cGH2du4Cmwh6asl8Dje0ls0DsTsLlx5zDN9goPAvakIjQgjVbuZqprjvZpGeIqGUelBVTHWzbI40tMwocp+xlO6Y3YXuS11fNfTVdk+KWaqfdPT1dXV8xX1rqZhmuYktA5TQt3wBgBWUDggLgAAAJADAJ0BKj4APgA+kUigTCWkIyIiCACwEglpAAAQN1NQBXiFuQAA/vjO9XgAAAA= 1x, data:image/webp;base64,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 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="data:image/webp;base64,UklGRtgBAABXRUJQVlA4WAoAAAAQAAAAHQAAHQAAQUxQSIwBAAABkCzJtmlbNefBfbZt27Zt27Ztt2zbttG12bJtzcY+d51z3xdExATwX2ute2a2UnyR0ZdHv0L859ZdwhHwtbBB6a8A3/l2LaE4aZ8vqTK+80utZYAhtf/ibgm+yg9hbhvgH2S74iYXDXnWToysHXTtBPla2C2kvLBn2PRH/n82TCMA8ju41GJvbofg6J+zQ0L4OpqlD0ywbzjvX9zls3jK/5Vsd94v11omLu9jyWN8jV/uh/Fvm8fPoHI3C/pykoTIZxOQdl/jDLRnj3z28ZLFrZ6b2/kslHDE7EQaNFPGZKCayoxyTS3o98g5mycFfTjKAJFjhg8EaEQkpe9K0H4Wo91M8I5qC7CfMMW+VEmWLFkymdTJY5ommXPpX7y7d+vWrQHRcPeW64P3sKcYQHTuxfbAnuIh5nfs1KmlkzYQz5ZSnlSTvJPFIdZbym2FLjM94eu0WczrCIE/EgktbyoGyNVuGt71L6/RARcVECsXliYKqFQyAQTahgXEP/se73qL5D8z+2y2HIQYFABWUDggJgAAANACAJ0BKh4AHgA+kUSdSqWjoqGoCACwEglpAAA9o6AA/vjPGsAA 1x, data:image/webp;base64,UklGRpwEAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSEcEAAABoLZt2xlJntL1vEl3HzONsW3btm1rbdu2bdv27kd7x17balTnvT+kOl2V2YiYAP7XnVFYUgSWPjMaPfiXpMrXOoFLV8htGUX6fft38tIrBGkK60WRMhtDgMcjSf2C1Djrq+jlXrqa+Eotuk5aQJAKZwVPyJ/PiVqVZYCeYJH8O6W4vBgYVvisIo0yHlb/LA20kaCLj/ROI5c7s273nEjIYxndQgCfqXGWUH+A42RltpB7t0rSv9j5mmAG/KIgC/9VA+Za6KU8II15RycxVbcTjyrI/rXqAhyok/NQpF9pqcso1h+ANdGeGt5QfwM2qlMe+DKqWtoMY4efGeDu0XFmgNlEfQhBN/1BHkN26AnAtZSm0VYi7Pflv1/PMMo1hl7SGMsDIUU4wNbLR8qcGDZRlarV302NVC5/Jem07p9W/Ff9Lk30H19qGPdF/5RvH2qWDhyQUaG9lFG0FSTAkWI7RI86rv7tMQpP1a1G7kOad8NZIrNWO6QDAGyS/HdDzHIVFP8uaX0tVsl/I79x4cB570rbpAuxHKHM7hflJ7gENlyaS8tfFf+vN0PlV7ocHaiXsL76hbjFqNTwEKP3mbedM5CAoIkUWG7uVQ8HXoBZnTUXzMV6Lw3ofv7hBcQN7DYdAQRMumwwluhAvQBhv74BcLDi44G3JGlC0zPvPqEFzprqc4DXvXRtMnxm+7UAxgKvyyc9KN301J1VFbPOVvbXCU1/AH30x8hq1U8U1v1NKgLmvSH1MGyqJK+6gZ3p/9ow+Gj5XdChOISFOoN71TERIe2LTvv88+ci+a3Ez13Q7ZvdYKzA4fjd37f1TgIolrYXtg8SmdFSkrzaHtXIAQYBFAAYEDaQ1z/w3p1lY6VRJA65/kdFTzRs/OD+jlxv/LoBBQ0kraLMJSPjpUdxBparEEII3XHS+IDkYeaFIocjhRb0UxU1OkpLSkrKXHFpSVoLX9OQkpJSHDalXOmvlKTqKTZQ2rUj4SbvN+1I6XZpwNcaTWL9Sc1hR/I7Sl/pN2rxd4JtKs4Pv+svFVsCS7ZDJZYPq6M/D6nW2WednfXcg6jdvPPPzvlZPnMwjymjmstqhfKY0YM4Omnr6FnxOcNdrYKe82bleMI2dTWD5nqbhLUhj2+rOcTe2Rfeyc2fCTbmKsCSvZ0o+vPv7H9FKs1NcdXEJM30bpLvlLSC3E7QPcC7ahYr0d4EhRhJC3Jix+oQYJeKY1SXJ0jlHrUDMp6se9TI0hMM1Y9gLbQj27G6JD1BkTTYcJfpOItZHVVj6TBGKHMTGFJBFuxZf6VLQVC2/KKfva7FsGv1MtldKHUI8ke5pB+7mxF2k3DZCKZ51Q3z5rpdurABAQQl0rSAmu2KSPXyVqNZN0VXkNS4UgPSYcat8hdjNYTEA9LZ+nZF/w4gHsb4cEdKt+/8KZL3enfzjh07dr5PvJ720dJY6EqK98HSojC2LwMAVlA4IC4AAACQAwCdASo8ADwAPpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="data:image/webp;base64,UklGRs4EAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSHkEAAABoLZt2xlJntH1vO+b5sysbdu2bdu2bdu2bdu2bWvUPqZTee8PlUpX0hsRE8D/vRm0hmFiRuuBP6VS38sLg6taYLexiord/ZL0zkxYpYIbHTXYP6NBy76K0ln46phNrNqYxfUq9Z36eUNlj+IqYsZBqr3NlroihyxlRqWjZ8WqENijN+oi/FnaNa9LHaFldKp3FyrFMemSOPg61a/TmeNpLZH3uWbAc7AyLV0Gl0lawfGtlsUD32uavAe0KpjjAy1XxtLSs1GtPK7VDKBXSd6xOoT67zV9GVdpHT7S0uygO+tMg+SvrzsAQ5Eyt9F/a015D3RKeNyaeq/BRBrA8LvqlVL4LmodHDyTvY2jW8sG5t9368TzQ9zd2dTSTK6MhK0vAfAoHX3w29k38IokLexmlfa/Q9lVlGvgAELL35KyK2xSZbvfrS9AUdK5WDkFA/MfuJX6YFzt9nHaijX00S6bdppR5Z+1ehgl6Rn4SUtTpgE2FGeLKSNh+8Xxu6gLX0LgqGcu7PTFEm5TFvunAjhYMWoRs2b5iVS/lCvi+T7Tfh+n+uHJtwakHT+MWss3i/HpG/NeHZVYAR6q9SeOw1JJ+nYax7bSxK5Js+o3PI9qOwCrMyaIADDtwnO248FOix9Qb4AVW0xPgm2pnYDAnh98c+uUrm1UG8d9/clWeADDSNUBhMle/25vfKF2aTY8s2KE0Kf63YEuSfGNOV/89auzvDee00rgJlVUdgOF7aKaxixm4KA3/WmuqY6Xvvjxm+yvqeZNa8rdwDhYywFP6+JZpbZCjhOk44GJPx6X/oEz21hSVOLcbOpee5LZHpRWhCkNeEvL8ZGsEM7o2PSnnveVSRsYwB6zTvzR+4DNh8OxVRx8bXAeDFaP+o3WUMgMfo6Sslf9ttQZBEgo+G0qrcPyY8/hQKmNwgl7/5um/XMm873mHEZTbTmtmxgXS5oVC8X4MCpGPIaj6YYHx/QvZepwDPGD7ukhoZKOW+O7NPS01hutFWZQobU1weFnHa1hODhBkv6cw0+v2NvVXXBC1t9d1a6Bmqb9IjuNwvtpM6p7avxUKVboZO1Z4GeVZAxoUME1rUet5Tg04brs33nmmCt/QaxYt1rDqHnnavocc/8Xr+PfTAVvZkio1DiawO5Kn38z98vZmnDlO282+/lUexOwVv1DQxuao8R/1G5Au0Y3YmiU+Z/aacaulbASbtt1z/xNB5rl2vai2H9FzstUMKqlObyuRXI66lrVXcDc+Sef1Pj0Da1JH2t2oEstdaSZNcIo3qxMAVCN3N80pTWqoltZ34DNoJ/yLtWRVQpELWfY0bokx6bVeCprjj/jOwDjNKvVwb9xNV8JD6xTy7oJuNX0G/luSQ3iq9D23lep9D4Bj7SU5cGH2du4Cmwh6asl8Dje0ls0DsTsLlx5zDN9goPAvakIjQgjVbuZqprjvZpGeIqGUelBVTHWzbI40tMwocp+xlO6Y3YXuS11fNfTVdk+KWaqfdPT1dXV8xX1rqZhmuYktA5TQt3wBgBWUDggLgAAAJADAJ0BKj4APgA+kUigTCWkIyIiCACwEglpAAAQN1NQBXiFuQAA/vjO9XgAAAA=" alt="Dog washing"
+             class="services-icon" 
+            />
+            </picture>
+
+
+                    
+                </div>
+               
+            </li>
+            <li class="services-item services-item-left services-item-puppy">
+                <h3 class="services-item-title services-puppy">Puppy Introduction</h3>
+                <div class="services-icon-circle left">
+            <picture>
+               <source
+               srcset="data:image/webp;base64,UklGRnwDAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSCgDAAABoERtmyHJ+v4/Ymzbtm3sfG3btm3btm3bttW2URnfojojouruZhURE4AtyUXQbtTqrdYtHGb+DwZb/87U4junQyWfRCbVkS3fPXrjHS/90kqy8WSo5I3gYLo/5iB10JH/0PEwmHzRPcjtoWkiGPUBW0u6mPzQoeQMFXgrxte0cpHmBQrcHopgxcOOq0weyGL+DQmD4ihymI1h0asTTIriSy4RxBRcmGmEhJnOleTzUMnqtPCHDOFpIGlQ/M7jwgTNrUXM3ICJz31T1kSydYz1wDcTJA1mEKsRrDu6X9Cdf+/G7LpPdoKB50a+BO9qdgkROI43g9lM7ja8mwUg8D2dh/j9xT4hur/7HHJhQh4kiHgP1/pVskOAgByhKOZrXBLlSS7wEMxjPfwFN/BDYBArlvFlSISHuCxFZNQHdHuJl8W1ZAeDfXmTkOsUgCiWXbQNbFvncd+0g0h3KLxsxzrHaRZYzGewiJwOKDZWkmyUdn2gwEq+0paOJPeACDwNmPmtiwXQjbTYiysgi+scC7d9Nyknk2WKdqS1Wfg1OUAE/p+612CQ/XSGp88CgGr+Mxd9HnKOP5MjRB5KvoUAZi0bIPDWSXQwyDZ4gyQrXj2wz/Cuaz8keanFAXwJipakdFlHmU4uVAR+7rZVtG0x+pj36piaOU1EdTi/BKwUMNtdh2BHhHZZcuU3Bf+8uBGiiin1mcMFsFj9QUVjwSZY62dG8s+gdBGsL6P7DgIAguwX2FV8DH50B0kcFTmsgazYBha+d/IsH4sPWhsRRaTzNST/mAcV+MoAViPddqlL2MEgXNHnGZKvD4EiuIwTJAVMfoNFsGDKlyRvnDTXIFz25RtIf+p6WIR2mXddDdlyujUkYhiys7SlgCLdYtqlrxc0kWTZThC9iPfFgDzAS1L82+E3Ztd8eHRfiADVHKhRejGBREBVpu7ABb0NUvuzFJE/4OEx9k8KIPDdmg9E0sFshYTJ49bC+2buEgn4gsdEUAj8P+GkWDqQhASF/82+sYC33U25q2CnaKYr2c3kqo7to0GucV8j1y1EfEWGnXJkhk428WB7zzU52uIYVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA 1x, data:image/webp;base64,UklGRtQIAABXRUJQVlA4WAoAAAAQAAAAewAAewAAQUxQSGcIAAABsMb//yHJ0ff3r+pMsrhMstbsRstDbNu2bVtn27ZtxbZtrGInMzu7Xf//7/Ngerurquee3isiJkD/P7tJ2Yz9P/vnW+9/5P7b/vHtc7bty/5XWFC++1UDdLjsia9vmEs23OUa8bWluHsHQ+Ot+wSZDWMW9DFITqnu+B/WkIXhKtPEt4juDs/86MiNVpswbuKMtXe/4HdPF+COJ3hoHQUblhrahegpMf/I0eown33545CclHhopsIwlOskCposWEeyTmTSKic8g0dS4h+mbLgJOoKmFxwnCyp75pUQibCNsmFGG9D0tGyScpVuQWP/TXIif1dmw0nWIBIHGmaq0oKmP0qk4OUVzIaPTPe5F94Ipoot00EkT4kpsmFDO5GazDZT9ZlGPEvTI2vIhomgd5PzSZlqmel3NIlMNBsedBQeX1eumuY6iyYxrpANC6YXk7OdqbYNHU4Tn698WPgA7i8p1Ee5zqJIfFZWk0yaufW6KyiUYKb/Auep1g39CS8YG+qR69j3AP+NgnVg0tSHic5kq5VyvZbwW2V1aOg/RIdIfyNrK4xe7/Jn8Oi+UOVaebI1iInJtdBlRHdw9/kKwTRmp6M//6e7X+gHcAre7slKCVr9OGUlBV3l8H3VMKxIkXjlw3fSTOwUNPdJ2k7O7xSsFK0Pi1W2zcT9zTroh5AWSPo++DX6GJ7aWvrnScpV8tWeWLc0veXQW11YmZiYFxRGAdfuQRNvtfSVWz61UUNmKvsZYEJZ0hXAOpWZfgPpHplsFvCcNz3yp8uP3HTN3oaqftcZzMr7GbBZZWEsMTIzSPomLYvBXtVzhMMilf8HYIOqTH8Hv0Mm08s+xOkLVo8JwP0VXAfMrCpMJEamB8nWwBMFPChTPVcHrizNtBjorch0nePXySR9DrixCf9SXecBfyjLsmm4v66KQx8xMjlI0iKHLRweltXkg8BvyjHTiq9F+E1FDd2f4B8yyfpw79eg4yOymswB/lRGME37Ae4F062Shi4gFYwNknQ58Hvd6PALhXpMAW4soaG+ByF5k6+oCgs6l2XON2VDnnNYV+uTCjaTtRekRo8UrJPRwNOd5ToSTyTn+2qo/Fwr30vT04vKNfRpYHTQXU7BJLM2gsLJTw82X/vNeDU6CP3OQN6JaU8KIjy+tnKV39AxeHQv8kwtrwDmKutJBZExYTlB+QVLcHA4QY329DAw3TrIeimIfH+SLKj8hn5Pk4LXG8FafQvYR7J5FKRXNdSCej7RJDpDC06U+jaeu4KCtfgycJHaD7o3UaQxMlOFuf5M4ZHvKzO13h/8AeVBuxFj/xCznq8mknukfzHRCz/pXcCvGKEgyT6E++vK2rL1SQUzzVSl6VSK5G9OUq7l2kiPidMVcu1C3KhFH0T3xJv7mWYsciLJ8QhzZZLp7ejsK2sj0/wEP5ep0jCepvOYgqndH+HL+P1ESaGhTJKucU/OS7vKco38AYADTqQ3SNJZeMFKwZanffBIHlSp6fZEfFWZ2s7UH72A12+4aJ0Rank6zvytZbne9xNo4s6LX72aJn6vTMrUX5D6c2WtskCEj6jiMJcUmZypwzAiesQBfMHvj14jkw7796aSNO0PEEnOwu0kbUhKjJEkW5dmSuyslqZn3OOAsmpMDyT4hawTC3Y7ywFY9si3t542a/0DvrMYjyTnqU1lQUE/BfYZEnQRTSKvfGbDiSNHbvkaqWBjU0Wz8MiIoM4zzfn5QgcHcNp0kvPQ2rKgoccAJw9RQ5cTcQfcSV7wA4WK9FPg2yrVTFpp7Quueb0j587ZsqChmf4L7NJCDW1a4Cw38nc1VPWLwCQrpc2x2375ocE23vn+JFnQ0GA6mhhZpZUy6ZK3WjnpJDVU9UrgL6uioTZjv8/+6g+/+Mx+UyUzDQ3STvNp4jerzSDNOe9vDzz/+BUn9KhHc5VVYusB16kbg7Lj38ITBY3QhmRarpm9yCtZqMD0b+DU+lnQyE8PEp3I4ASztto+l8SHVWHWR0yMqVswjfu1E90jxdeDmcreCvcXZaVleiPi16newTT7BjziiffO7VGm0s3eS860ssw0H28yJtQpmLZ+Ek8k56V9JVOlPwS+qXJzTV3qqeBEWX2CdPgbeCI5D20iC6rWZuLeb1ZGrkOJ3uR3ylVTC+r58ADJiXDVDFlQ1aaXHLYpI9NfaFLwAzVUz2Dq/XEiukfSD3tlpjqeDX6HrDPdTeGRvdVQLc205pUQ3RMDp0uWqZY2Ck/0hs7GUCTvn6hMdTTZDg/jieS8eoitvmTpB1XXKx2+qBKfgNsUTHXM1/lxP55IzmNbyTQY40Bd7EO4D4TQUa7L9lOuyvMxm1166xJwJznXrSULOhJPr9dGryU4WJ2bFFR2MGWrrnfYl69bNMhQb/GrVWVBpsUJjqyL7Ajwl2QdVRhMO94+SGtvxcvnrKhgkmwOnpYo1CVkg9HZoD65pr+C+3KG+tOfmS4Ftf4J8EXV+IvgD8hqkmtforPcgef/eekmIyQztTa9gdNn9QmjiIk1a2LahSYF6bnrv3Tw2itn6nx13BepRtLvHL9RVoswjoKCD49Q6acB31adw6qkxIRQC92ZKJimUN4VwJa1Ml3t+LWyWrycCmaZqfyXgN5ayaYQI5NDHWxduECm8kc4vKGa6WrHb5TVICjvVUMVrgHcXzOFicTIjFCD6ncGflg30xWOPyDrvrOBC+umMIaYWG8Y+DqwT+1Mv4X0krKu+y2wQe2UjSAm9lfXXwXMqZ/0STwOWtZt9wFTuiDTkghfk3XZI8C4LpDtjReMCV32JLBqN2RakPD71OWLvEsUplMk1uiyG/Bl6g79Gmd0d2V2zaPTrCuU69fPrKMuD5J1iTLJQpf9/80AVlA4IEYAAABwBgCdASp8AHwAPpFIoUylpCMiIIgAsBIJaW7hdJAAT22IvEFRz2xF4gqOe2IvEFRz2xF4gqOe2IvEE2AA/v9ST2KAAAAA 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="data:image/webp;base64,UklGRrYBAABXRUJQVlA4WAoAAAAQAAAAHQAAHQAAQUxQSGoBAAABkHRr27Gt6o/rujNGtm3btm3brtFXI9u27Ya27aFt1xXe+1l3ETEBBBT+p1Z5Z2atXCDZ9jA58LVJoKGXFEAtkAEXQNuZFQwicC01QMLnIWaZ8Doxgn6rF0LnHTj8DHltXxq4EC5hy/JK9xkEFgNI9E3CyJqe/8iT9GEw/YcqxySE2zyKmGKETG/qeZksgFgivIeKRZGax28lwX0YqL7ldXya2zb+OqryYYLiv5jLl8uwbPG6WVPFr4ZXTH8V4fMpEfxu/B7xZL6b7YGzKgri0YHm8PaIm9Z26UQFCl5XIKfDBP/gUcurmgLIyA+KGDV2ErHA8ZwvHsg/6NVClDOmd4gixtKDxO4/0tl7dpePtHhBoVmedfUvzXrBwZJRUOviYolVnJHoNRuqREJsUKzqtwSMuG7RSGgaQ5/8epP6UabGP9fEi6TjbHrzpk2bNm1co8rnbB/rlD/TLxKOTpMmxx7ghkyePDVFLFZQOCAmAAAA0AIAnQEqHgAeAD6RRJ1KpaOioagIALASCWkAAD2joAD++M8awAA= 1x, data:image/webp;base64,UklGRiIEAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSM0DAAABoHbb2iFJHtF53jey7B7btm3btm3btm3b9kzbtm13ITPe+6GyMqJiTURMAP/3ZlBVm8Mse+Y4d0wsaelbkc+a5yxJzZNGzpB0jGUronesz5YHsLuk41yWjFFxc5NZEbeVVGVZercwH0+H9mB4yywzblWJCDCsXYV0rwPLBr/oSAdY9We0t+MlTfo2irLRIoq+piPb4cvfbpZklomwqNhxuqkIZpR/oovI5DKtYAbsp0eLAfayzsmEvZHXje3O1jUdmG0jYVlwnCyt6IwB2gwwoOYB6UBPNv1hYTLlLxaWgtluo5vbJB1lZHaGpKAuDjsrKN88/fFyT2Y9/y6d/V7OA4u0JYCRWduzFsABzFKdkWXromntit6v+zP2pG6wDqxOy8h2UK4jGKpdLEN2sLpSou2sgWR5gdZ1JUCzKi0z7uB4CCXbqzovM0bQWr601TWarLpHw58kbVaUkahJwif5U5tlw5hTON2T9FJdmw3eKAwh+db6OhPRARJRsuU1MC1ndNnn5G3xQLSGtKknebUmpOOs4d1mSfoDiBoVznCk2KDRqUR8Li0thFhXYraB4ntIdRP9kUZUmy9ov69jPWMWcanCrVgadqVuSsFXK/6TAXFbk3mrHxd0sBmpDtUGyYw4/wQ/xwuIPK8rzK7zpOpqlCe5ez50ZZ8gcraXYp1PRMo/6S6XDAny2iDiiaCPzBnp+v0kLNmR+op91RW7NdYG5kjZDpC2cyT/U1vSV5tEG0g1nuKGS+B2lY5xpDhLOeIYFof9PcVtxz5R1IHDAdJujjRb81RqLEfE/Sjxz4J28EVc3awm2E3/kG6+lQYNZKrW9B05HpI28+3sa50NP2hHS2dJsJzm5zSVUs2ODcIApAhmq4x0x6iB2TpDz5YE9qXuBNxJ8XxAraT8jE72+8UKByRwdZoJRj4eDBWakpKtp/HwU0EbJICWNvDXxfoWVtDwlGCRVixjlFZK1NZKVKsQXobV1TMtd2IYD6O1QhKvOZAvfKOHYU11TQvmhsvZ72cS2obqWtES/7CT7oXV1CM13yDtCC7JU9pV8R8cqMdgeQ1KDb+vtIdZAmLlDr0Et4W+hBpNSA87SbqV0u3E8A9g1Gki5DS/E7DdpC5WEovCuRRtkUG+tTOwO3S/K8ltoHjOL1+eiv2mvR0L9NBu+PSqpA2clUC0ynhJYQlbaRIMlqRalxbu/KDnVigFiJZf7Qc9w7ywL6y1w6eFOXTi6ZLiudNKnzEy/M5G0oSpUyf3iFs6w3P7uLySP4Q9rOJjOgMz8FHScswoi9rniEoDAFZQOCAuAAAAkAMAnQEqPAA8AD6RSKBMJaQjIiIIALASCWkAABA3U1AFeIW5AAD++M71eAAAAA== 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="data:image/webp;base64,UklGRnwDAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSCgDAAABoERtmyHJ+v4/Ymzbtm3sfG3btm3btm3bttW2URnfojojouruZhURE4AtyUXQbtTqrdYtHGb+DwZb/87U4junQyWfRCbVkS3fPXrjHS/90kqy8WSo5I3gYLo/5iB10JH/0PEwmHzRPcjtoWkiGPUBW0u6mPzQoeQMFXgrxte0cpHmBQrcHopgxcOOq0weyGL+DQmD4ihymI1h0asTTIriSy4RxBRcmGmEhJnOleTzUMnqtPCHDOFpIGlQ/M7jwgTNrUXM3ICJz31T1kSydYz1wDcTJA1mEKsRrDu6X9Cdf+/G7LpPdoKB50a+BO9qdgkROI43g9lM7ja8mwUg8D2dh/j9xT4hur/7HHJhQh4kiHgP1/pVskOAgByhKOZrXBLlSS7wEMxjPfwFN/BDYBArlvFlSISHuCxFZNQHdHuJl8W1ZAeDfXmTkOsUgCiWXbQNbFvncd+0g0h3KLxsxzrHaRZYzGewiJwOKDZWkmyUdn2gwEq+0paOJPeACDwNmPmtiwXQjbTYiysgi+scC7d9Nyknk2WKdqS1Wfg1OUAE/p+612CQ/XSGp88CgGr+Mxd9HnKOP5MjRB5KvoUAZi0bIPDWSXQwyDZ4gyQrXj2wz/Cuaz8keanFAXwJipakdFlHmU4uVAR+7rZVtG0x+pj36piaOU1EdTi/BKwUMNtdh2BHhHZZcuU3Bf+8uBGiiin1mcMFsFj9QUVjwSZY62dG8s+gdBGsL6P7DgIAguwX2FV8DH50B0kcFTmsgazYBha+d/IsH4sPWhsRRaTzNST/mAcV+MoAViPddqlL2MEgXNHnGZKvD4EiuIwTJAVMfoNFsGDKlyRvnDTXIFz25RtIf+p6WIR2mXddDdlyujUkYhiys7SlgCLdYtqlrxc0kWTZThC9iPfFgDzAS1L82+E3Ztd8eHRfiADVHKhRejGBREBVpu7ABb0NUvuzFJE/4OEx9k8KIPDdmg9E0sFshYTJ49bC+2buEgn4gsdEUAj8P+GkWDqQhASF/82+sYC33U25q2CnaKYr2c3kqo7to0GucV8j1y1EfEWGnXJkhk428WB7zzU52uIYVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA" alt="Dog grooming"
+             class="services-icon" 
+            />
+            </picture>
+                </div>
+             
+
+            </li>
+            <li class="services-item services-item-grooming">
+                <h3 class="services-item-title services-grooming">Grooming</h3>
+                <div class="services-icon-circle right">
+            <picture>
+               <source
+               srcset="data:image/webp;base64,UklGRmgFAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSBMFAAABsLZt2yFJ8o6u530jS7vNwti2bdu2bdu2bdu2bdusqkZZkfHeHyIrIjMmIiaA2huUPP9RT9vV7bE09N4yRMVzTZ9KinsHJH1FVDCz1RTik5qBaK04DBMVy20m3YIZgOPn8ocU2s0ubYmjcomgaVyR6C0fYsbodpp+bSqQramfMCCa1kepUjno02MWIyoG72lpAyipg3TEzZL0OAVtVz1pF4Yr4GDxI2MtWJA/VOdSDMpXSNtl2rkgjyWDS7vUSLDRfCQ1F8PZL9JMDj9GXYw+cSS+l4JGHBr+wnhRt4M5t/p+J32s5FN8QTB6wgMn/h0Lh1tb6eREIgobTSdJPeM9NCm8esx+i2FGYR24vfZZEA8srVfBcKQNKwKXPcvoYzWIuQfrDLCZbqKA5qUM/KEV7VBdT/p7zV8Ad6CeyWCb6XNm1zcVRuQLQJfmttGgrLGRhlMT1U7tbXn9QVa7VefTrgnAGnqqAPyh1SxTi3p5SOsDV2vX2rmVNZWcnZp1W90MfK/ZamYMaEWXzU7V5dPoNyARNXcnJt+T06ZVJ0nZmE6/1SwaI7X5HDAs/7umZVPdUyvj7/JFRu6vNOvN2oa7tFmtuDKeQhVu0RYb6EF+1fQ1ilaR/u/Jf4ROnqB2lJDfoHX51ZrNgGhaaV1PFXfQFYyoTj/k8sz1/IgkbQlEY5RcSFV300V8q6N1bQ6z5l+lkRCC1sHcjIofwqpyifbkshC0RjZjb4Wepf9NdHFknq2U3Iejqp9rAVtNUnM2zg46laFkyhjzVv9h0Ik4qisZY6URMvv1pEVI4veJPMcplBc0o6q2mj4HBvRFJkNajVf1LXUsNijdiafanVrJ4B2dke1yvcTCEvVcpvBjszmqfsErAE9qn0yU1cxXYWPPLYk2xlN9Bx6YGt7INIt+Ypxiog2lVmdU3TNx8dlx1Ek9mNnci4whgu11ITvoDoe0tKeyt2WIcvgZOiWVN2BhSU2cHCR97CPO1SbcrzV4Qo+T8QN9SlTJzzk+IlpCoeu5H6X5j0ukmd4I+uRFBTX5G7QC72iOSMKPZnMoxEQp8xrAmXQ8sOxTvKd71B4n44Fnyt1crjV5WQvvpYfI6vk+6cBSO+tpuFsPYmDQr2ZJzR48v2u9Q3UoJ2v/l7WIZSGiO+yW4l+tDbHqHen/qQuFV0j7hfX20nqZCRqcoojs0ZyaAthS0oyM099UXk6vMlWbVsCFgQYNY/ckGiB3nxow2suqZ3p9NcrpOphntVQlBsUPWqPEp+W/8/2u8fi9gxIYq45RbtLGXK/NrJL6bfUwiVKDfszXqUbfJpWHgEE1ugr/ano21AukbRG9BZPDntamb/OFhEbF+w/2g90V7sLAr64O8NIED46fwtr42aRmVm30OWw2vbeI4pdRH7iSdCiwkLScw05IkmbgmXIPYGcnKhl57eIwpPAIFgYBv5iSzid/UrgQMN6M9ckLQ4kaPDhejtXicxgh1uSVcPSpBPiZ/pQ0uBkGRJwsSZ+XPIDnxbJWsByH6IMGPPCtZjI8jrYlZsEZaWfMvdgYPBU9F4XJ5Pwued0BxgU6EuraZ6OWjkG1RJl8JOnPn56dw2ZTB6ynkYdXo1Q17NhkAG8ZiHha6dXo0jx+giT9hlWPnxMd2ZolXd+wkQbYKkwFxiz6rc6m+iVekJT0dmXv/iUORmfc19XV1fmn7q8Bnlnv+DdR/n+JGjTqIbUAA0r1uakjor5iI1aT/yYAVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA 1x, data:image/webp;base64,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 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="data:image/webp;base64,UklGRgICAABXRUJQVlA4WAoAAAAQAAAAHQAAHQAAQUxQSLUBAAABkG3btiFJ69yotm3b5ptt27Ztdz/Ztm3btm3b3XEaNyLyEyJiAggoUmxsv5iGEDv1dVXFlu5EExrp+FUEnJeZQoMKJpqQRnsmCAtB7o2AC4b+P1OHING3MFAA8zxzCJzsKtWu4RTp+HqBhACZoK/gzOZuiQyhTFUD4HaaJBmgtQSS87n+y3g78wH4TnCV/1C+gQYyOxtgndJMiX0nUAI1tgQP7yRoPCaIozHx1H4dDmb1EMIQ5MQQx0fyYy52WaSuYpZvF3zwRW1h2vTDDMOTtQafv3EvWIwm+dU43Cgta/A5bgznulgaL6y5I/z7pSL4djjdz3Im/vOoi8cYII6xmYHvN6F35eab2uYlihqAvvrfTzNnS1i7+F+/abaw99XuRf5aczD/m9IvhAa7UAOZd33rL/BxfKPyvzNbkB842jvKM2BQyyMZAI36O+xqHBvfmfGlBiqY49n6DxD4KhumZTQ20TlPB1WQpeulvYpo4YjvG+C8HetR83MPp10fZPCHXQKcfVXRQNjDlLbTS1KS6L4cjSD4Tq6OhQ57NI2GG3ntl/hy8v1Q1/6lR351XSXkxgEwXgBWUDggJgAAANACAJ0BKh4AHgA+kUSdSqWjoqGoCACwEglpAAA9o6AA/vjPGsAA 1x, data:image/webp;base64,UklGRjIFAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSN0EAAABoC3Jtmnbqj7GWDi2bdu6tm3btm3btm3btq1jY6052sNcvj8QERNAvQ1cLoDR+J4hjy+QtOz53liDmevwj6R5v/8r6U58Q5ntoPjvmgFgXRWepaHdXlE74Uh7kmQj10BusDTIG6VDLy3ANQ4L4toeMIz07MKLLcAaZLI+puT57QxwXST9/dwQ3xj3aoKlBuod0p6T5koa7hriDbUn3US/lsCM/Gb6loZ8SOsSgKCZpQDfX980hI2V3sKgmX4qF1geV7VGwCYtiscafjPdATjApixLXqNBLSdlGS/1MEKTh+csioov4xsEu3CFCtJxhuUVlSx6bRiOhuGyZUs+H2UGV+uKABgN65sOBHAAZ2t7FyCTci2x+jFLWcp207/w+1LSY7U7dbfu+pMK56oDP6t16mJt1gAPaGcrZ3vpfi7TegZ8rY51MyQq9RKr6maAYkLd3dm6ySqxZ7RhS/0BtNe3dXNIzlU0TF+wNAHW1pV1s7t0g6PyZQqfqBPcpFXqFTpKWGX2hKadrq3hJ7Wqk/FHcWtPFevr+rF6CLSCOrtjij9SdWv9lNdMuunTOvmeUsZXRVzKIvktdVZ9Aoobe6pfIPemejyoCdUZodeMUWSAwN/JQ9TyH+WO0tq/qEk1nk1+kKQlQODz+COuFv8qM0w3Ll5C5Y5Vl0rLVNT34PkhWUCgloUiOSm+U1ngyaiH11X8sxcZa7M0/keglm30M8yTjq7I+CBJ+m8iHYrznKLkDQK1tO10FTwXNbyy6wtLGC9NsMC0xVE74ajtz+pv7CWFSlw3CaQ1QgjfRr2bc0Zt+2sm0FX/UvFbcRtu0AOEbopzB+Kp+XXtHQzUvIpMAolsM8Ur8dTeMOBQqWkpA8boUdbW/Y6lxeMwSjqsGk+vs27cFs8b0gRv7U+8cU9zxmHajCc1yp8b38Mo+8JAs1IuFfhY6ekslM7iYaV3x67WcH5VDglP2XWjjsdK8MRaZvyVLNhi4t36PagYn3wgKewy5lzFfdwt6sdM+aN0haO8rafkjBI2Ul/jTkl+wmE9w3hduCAWlmL4LlKzCzSR79X0d7WzCvDtpIEO4BltCJJ50qdqxq9SDw+4/XX+DjqIs7RXYT6V+9XiX4AhdaSf3qX0x+p+m/4kbVn90VMfkJeKb1cBc9UM7KZEjnV0RpmCWE9Pl4BFCQWFsJXijVU9roGEForLYV2dXso0h156qgK7Ix7t7DCdUtUTGmj8nsS50EtvlbAu+oJmmlnCvP50zSVze+jEqj5Xe+4r/rLkH6CgXEjdof2N2eroAb+/LsCuTT6m5X8dq1ohHikK/Ql2cvwewyZLmNswWYzDukhNMBYlF4BV4bpr1sxETbP6B4x/4rwNxt4kreSBNxPtMvZcxb09hLziObgq7O5Eep9AcTGQ4V2lVzPA86jSu2NA6KDii1hFZtKu7fAwR1nAM/CMm7YzR9rR9fgb98g5Ix3yxeSIyjg/vo+B8ZTGmOXOJW2UNcAo69vpL6wSI8bl9129G24dPWjco1tXwVP7mfEgXAUE3le6i0ne9pSkaa5mvoPis10rATIDh52SzOG6eA+MnX6NlK0ZoZ+kwh/ffl35i4UiKH789ddfPjNfXWuHZ8/vo6qfhx+usrk6gEGuWfNmlbciQ8g0b9asWbMWuVCX/yMAVlA4IC4AAACQAwCdASo8ADwAPpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="data:image/webp;base64,UklGRmgFAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSBMFAAABsLZt2yFJ8o6u530jS7vNwti2bdu2bdu2bdu2bdusqkZZkfHeHyIrIjMmIiaA2huUPP9RT9vV7bE09N4yRMVzTZ9KinsHJH1FVDCz1RTik5qBaK04DBMVy20m3YIZgOPn8ocU2s0ubYmjcomgaVyR6C0fYsbodpp+bSqQramfMCCa1kepUjno02MWIyoG72lpAyipg3TEzZL0OAVtVz1pF4Yr4GDxI2MtWJA/VOdSDMpXSNtl2rkgjyWDS7vUSLDRfCQ1F8PZL9JMDj9GXYw+cSS+l4JGHBr+wnhRt4M5t/p+J32s5FN8QTB6wgMn/h0Lh1tb6eREIgobTSdJPeM9NCm8esx+i2FGYR24vfZZEA8srVfBcKQNKwKXPcvoYzWIuQfrDLCZbqKA5qUM/KEV7VBdT/p7zV8Ad6CeyWCb6XNm1zcVRuQLQJfmttGgrLGRhlMT1U7tbXn9QVa7VefTrgnAGnqqAPyh1SxTi3p5SOsDV2vX2rmVNZWcnZp1W90MfK/ZamYMaEWXzU7V5dPoNyARNXcnJt+T06ZVJ0nZmE6/1SwaI7X5HDAs/7umZVPdUyvj7/JFRu6vNOvN2oa7tFmtuDKeQhVu0RYb6EF+1fQ1ilaR/u/Jf4ROnqB2lJDfoHX51ZrNgGhaaV1PFXfQFYyoTj/k8sz1/IgkbQlEY5RcSFV300V8q6N1bQ6z5l+lkRCC1sHcjIofwqpyifbkshC0RjZjb4Wepf9NdHFknq2U3Iejqp9rAVtNUnM2zg46laFkyhjzVv9h0Ik4qisZY6URMvv1pEVI4veJPMcplBc0o6q2mj4HBvRFJkNajVf1LXUsNijdiafanVrJ4B2dke1yvcTCEvVcpvBjszmqfsErAE9qn0yU1cxXYWPPLYk2xlN9Bx6YGt7INIt+Ypxiog2lVmdU3TNx8dlx1Ek9mNnci4whgu11ITvoDoe0tKeyt2WIcvgZOiWVN2BhSU2cHCR97CPO1SbcrzV4Qo+T8QN9SlTJzzk+IlpCoeu5H6X5j0ukmd4I+uRFBTX5G7QC72iOSMKPZnMoxEQp8xrAmXQ8sOxTvKd71B4n44Fnyt1crjV5WQvvpYfI6vk+6cBSO+tpuFsPYmDQr2ZJzR48v2u9Q3UoJ2v/l7WIZSGiO+yW4l+tDbHqHen/qQuFV0j7hfX20nqZCRqcoojs0ZyaAthS0oyM099UXk6vMlWbVsCFgQYNY/ckGiB3nxow2suqZ3p9NcrpOphntVQlBsUPWqPEp+W/8/2u8fi9gxIYq45RbtLGXK/NrJL6bfUwiVKDfszXqUbfJpWHgEE1ugr/ano21AukbRG9BZPDntamb/OFhEbF+w/2g90V7sLAr64O8NIED46fwtr42aRmVm30OWw2vbeI4pdRH7iSdCiwkLScw05IkmbgmXIPYGcnKhl57eIwpPAIFgYBv5iSzid/UrgQMN6M9ckLQ4kaPDhejtXicxgh1uSVcPSpBPiZ/pQ0uBkGRJwsSZ+XPIDnxbJWsByH6IMGPPCtZjI8jrYlZsEZaWfMvdgYPBU9F4XJ5Pwued0BxgU6EuraZ6OWjkG1RJl8JOnPn56dw2ZTB6ynkYdXo1Q17NhkAG8ZiHha6dXo0jx+giT9hlWPnxMd2ZolXd+wkQbYKkwFxiz6rc6m+iVekJT0dmXv/iUORmfc19XV1fmn7q8Bnlnv+DdR/n+JGjTqIbUAA0r1uakjor5iI1aT/yYAVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA" alt="Dog clipping"
+             class="services-icon" 
+            />
+            </picture>
+                </div>
+            </li>
+            <li class="services-item services-item-left">
+                <h3 class="services-item-title services-nails">Nails</h3>
+                <div class="services-icon-circle left">
+            <picture>
+               <source
+               srcset="data:image/webp;base64,UklGRpAEAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSDsEAAABoEVb2/FIOu/3fSm2xrZt27Zt27Zt2zbatjm2kWmXU//3XOSv5M+0biNiAlggNIO6LrWAZWFAXZdawLLxdL7u54Kk+OvDK2NlmGOVp/5ulxR/vn0RfAY+111SYdof+UTS79vhSwkcOF1SYfqf+UTSkJy3Msx2UowPLU3xEuf8Ln3fzVma2bLTov67cFGKl71D0kFYScbV0guYpZix3q/SSfiiwHWK+Q0wSzHjQekRrKRLo7YwR4mO4xQ/JkCOoYnOxVOis/UU78c68ltLq3vK9AvHOJ7g+C7R4maUHhaX9nMdeKS9PWV7ZseJ2NtJE56y/aZSrU+jn3qQZaAh9mCxgQQytBeSyaS6FSR8FgQUzzEcWToKWtMVMTxe4cg2LCORtR0fvwOwOgnLCNvlEMuMghYxsMv0EZXMDHtCDwL8onWtEtnbEpoBBCXMoQ3qCutr7JzSXfvCRbpqTjlJz8I72mJOWV2TYbIWn1PqNR3yys0pFtugOWGObZYnts45s1WFWuacWaqiqd3mmBYZP6l+TglqhA+0kf0fHGCWYgYYrK2v4ATdTuXNNv65bcZt5IAct81s+34LbGldAAvr3//DJVK7kt/xeP6UonSxBcNgprpZpWxNaW+65uMHwKfJtC7sKq3qAOxmPVQxJsfDnXmkztZJIuAO05ek1CnBKmQSBvaijuBIvUlxq0IR9pkurNSi+pniw3Qv9+jYlB+1SIrrKuEq00V/p5ykW7lNp6f8qm4p2Gt61SpDQTkDxmondtXgoipF0h3ScqEyn8eXMTj2R3DS8h4Yfo2l4fZWAz6rHCsvR63iB+sQjICdm+jQ5S1gLL46geJRehfLxvOH1JM1JPWn2Hhe0roYvaSfKfZEHeCzoXfyb1tyhnHHFxtBl3W2Xrsba384GOzM9uY/k1eKCMtLy4RsErGCfsMZO/RpVnHbgK0Ixo9a1auQgh0tVYUsLLbiNAaOb5I0fegHw/KSCsfB36onPzMNHo3thAz4KX68lKcuH/XnYXUUVx/8o5K/q5+NX66NdeDoEZsJ5bmFpYRl1D5rTZylmLHerIJqG6Kq6dgzJLbiyyJUPbRVtQrdCZRqdC+IG463EvAMiqoJZWHwU6E7jtI9Pdr/hJLwfBK1lrNysK3UgqdcR4O2NEr33C8dhy+HkdrPUb47SMMo13GQYndcOW0KZFml5rLALye1Lm9WUpVmku0sVZeHZ3TUA7hS6pTPKK+6DAgcrdiyOb6jKjVk1KCQBfjcRGn8crg0mlRtKZZiKRbUQsaBHQpRI1bFzIC+OscBjq5Xj/h2xLXd8IA7RwOyAsc5ivrpUOz4Lfxy0u7AYn2VPnBZYE9pFcsMc5w+S1KbhN0gtf42U9Kj6yyx9qOSZvzeKF1PRc2xyWBp2Cresd2vkmZeaWZgXDlD0t/bYBVJtWoMMELXWswoNqO6Sw7H/D4AVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA 1x, data:image/webp;base64,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 2x"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="data:image/webp;base64,UklGRqwBAABXRUJQVlA4WAoAAAAQAAAAHQAAHQAAQUxQSF8BAAABkGvbtmlLY65Ttm27wqeobBuxK1TE8NUP2LZtM7Vt27WCc+4+dd8XRMQEUBSFgoSCLP+jf/Hf46METfnqX/z3ECVFp+6XB1jk5Q2r4ZtLAly6EsW0e74RN/Ne1skrG3EVXjOg8zsjo7z9CjLbrSEgF6FOqBwaPCVcQbdasGBUivD8o9wvlQX7zi+y6fzLkmfp239QghDO5fqprNBfCb30wmLTlHtUabo+1ohHujdWj3JAnupUG3AcGp8Dxu22FLvzEkSv3YB9rxNktap5g6iBrd9cLKK2QUm3kBePl7W9ReU2lWbuY+Hdh6DB76MA54M2+7Njj30933EgmnsryqBVXspnCNAM7+PEbd6zKAnhNUTcajqKYVMdJTBko5GsbYNIjjr60KTNBWTO2ZQBuHMXA5Z3Cei6IoSufriMaHfXVGH/673F0a2CIKz/9z9ftN6/fu9cqpf/8C2kFwJRVAEAVlA4ICYAAADQAgCdASoeAB4APpFEnUqlo6KhqAgAsBIJaQAAPaOgAP74zxrAAA== 1x, data:image/webp;base64,UklGRlIEAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSP4DAAABoEXbtmk7Gmvv/cyKk7Jt27Zt27Zt27Zj2y7b1n3hPXt+3PPuObeC74iYABbuzbAOyy7XGcyyGViHZZfvapjlYY5Dvogq/frSelx5zpou+1GpX5+Js0yBwxKpbdIHH0z8T9KAemftmbUMltQ2tef74/6VdBkhQ+CjqFc6kdp8Zpt0LVVpgdukWVe1ktrhXsVfzZcVmBl/bTaXZsYe0g/4kuB+S3QKZmnmmFBUfSjDMyMZQKBcz4ioDgFCi4pfVTmjTM+DiSy0x1CNwFG+53Jp8UBXJU/iKd/xVPFXLM3vGmfjyWp2iNRiz+gyjKyOr+JVaYa0lCdHOz4KljUje6iV6q3EXaGe5Px48gU523XxrRSkRpeP48u23JBqDNhSo8m7Cqpzwp7SOQCjtaHlVUnrrN9KJObJf9UIS2niPGEvahfjcF00b+yop+AJrTlP0EGfwTi1zBumAvwkmzcoRCjMZh79STUkhXnlC9Wj/+aVT9XIrBnzyreq4Qe5eWRmhJ7q8j8wAyzNAIM6/QIn6wirmGP/H9smr2IGZstPLnyzD75BT0M3TaTyPaOidKQDd4SUKOlJAAcFVVuF3HHFOR3ZXOpiroe0JV1mxeMNwO7UiZWiqGaP31ODYXjc0+MbNZOURv1HhRfXRErnzIGiKB2rbiVYf+3pK7OxHk75QdXV+jHlXm2U4lo1C6vIGnor5U85r39SXtHqKdhLutFVpE4FDJr0N/ypZg/MUkhzSK0+NwMmxmvAuH4ls9P1EWa2zfEGBuB3iH9iOYWGaw+hXnHEhRhg/BV/ubnG8Bx6Ta2ndGh8PCfXXYqf02WOtAWlnunSm8BnkjqVOOZqB58LXydnf6mDHWvtTv02N7755g3b+m4HYBwQPz8zTishdJC6+1z0HyupP56DflG73+yH4wMtw0yl4LeRakIecwVT1ma3OdK/L+658kp7Pv+vonbmGR3M1fekYedGEbLZk0WdA4MTjVgSAzCWG6Y4oFkaQ/vGPTExn41+GsCnxWQZHO06VlQyZn2pDByPRtX4LHiqeL1YIFC247/iExDKwHF31JI+C7glJQIZA1I3o2zH2dKuWBb6xwMdmd2h6kVW20F6gpClKPI0zc5E6Kr4Y/DlNenzXPhaTZnwTEh0EL6c7hqez3B1y0bgRMXPOpprr5PG5TNBnXMA3/hVohdwllatP/P5TSEXAntLugOshL/UGgBnNTteetm2DgeEDvqNvD33SPpgGeheE06JvwG0vKPUXq0Av8w92fLCHHdL+uk7zYSvEw1/43Np7pN77vmkpI/eGKrkSyppjv2+kH7f0QWel6TCKRgYp7RJ0tOESgBGh04YOGOxFRfBjFKj84rdMcdCO1ZQOCAuAAAAkAMAnQEqPAA8AD6RSKBMJaQjIiIIALASCWkAABA3U1AFeIW5AAD++M71eAAAAA== 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="data:image/webp;base64,UklGRpAEAABXRUJQVlA4WAoAAAAQAAAAPQAAPQAAQUxQSDsEAAABoEVb2/FIOu/3fSm2xrZt27Zt27Zt2zbatjm2kWmXU//3XOSv5M+0biNiAlggNIO6LrWAZWFAXZdawLLxdL7u54Kk+OvDK2NlmGOVp/5ulxR/vn0RfAY+111SYdof+UTS79vhSwkcOF1SYfqf+UTSkJy3Msx2UowPLU3xEuf8Ln3fzVma2bLTov67cFGKl71D0kFYScbV0guYpZix3q/SSfiiwHWK+Q0wSzHjQekRrKRLo7YwR4mO4xQ/JkCOoYnOxVOis/UU78c68ltLq3vK9AvHOJ7g+C7R4maUHhaX9nMdeKS9PWV7ZseJ2NtJE56y/aZSrU+jn3qQZaAh9mCxgQQytBeSyaS6FSR8FgQUzzEcWToKWtMVMTxe4cg2LCORtR0fvwOwOgnLCNvlEMuMghYxsMv0EZXMDHtCDwL8onWtEtnbEpoBBCXMoQ3qCutr7JzSXfvCRbpqTjlJz8I72mJOWV2TYbIWn1PqNR3yys0pFtugOWGObZYnts45s1WFWuacWaqiqd3mmBYZP6l+TglqhA+0kf0fHGCWYgYYrK2v4ATdTuXNNv65bcZt5IAct81s+34LbGldAAvr3//DJVK7kt/xeP6UonSxBcNgprpZpWxNaW+65uMHwKfJtC7sKq3qAOxmPVQxJsfDnXmkztZJIuAO05ek1CnBKmQSBvaijuBIvUlxq0IR9pkurNSi+pniw3Qv9+jYlB+1SIrrKuEq00V/p5ykW7lNp6f8qm4p2Gt61SpDQTkDxmondtXgoipF0h3ScqEyn8eXMTj2R3DS8h4Yfo2l4fZWAz6rHCsvR63iB+sQjICdm+jQ5S1gLL46geJRehfLxvOH1JM1JPWn2Hhe0roYvaSfKfZEHeCzoXfyb1tyhnHHFxtBl3W2Xrsba384GOzM9uY/k1eKCMtLy4RsErGCfsMZO/RpVnHbgK0Ixo9a1auQgh0tVYUsLLbiNAaOb5I0fegHw/KSCsfB36onPzMNHo3thAz4KX68lKcuH/XnYXUUVx/8o5K/q5+NX66NdeDoEZsJ5bmFpYRl1D5rTZylmLHerIJqG6Kq6dgzJLbiyyJUPbRVtQrdCZRqdC+IG463EvAMiqoJZWHwU6E7jtI9Pdr/hJLwfBK1lrNysK3UgqdcR4O2NEr33C8dhy+HkdrPUb47SMMo13GQYndcOW0KZFml5rLALye1Lm9WUpVmku0sVZeHZ3TUA7hS6pTPKK+6DAgcrdiyOb6jKjVk1KCQBfjcRGn8crg0mlRtKZZiKRbUQsaBHQpRI1bFzIC+OscBjq5Xj/h2xLXd8IA7RwOyAsc5ivrpUOz4Lfxy0u7AYn2VPnBZYE9pFcsMc5w+S1KbhN0gtf42U9Kj6yyx9qOSZvzeKF1PRc2xyWBp2Cresd2vkmZeaWZgXDlD0t/bYBVJtWoMMELXWswoNqO6Sw7H/D4AVlA4IC4AAACQAwCdASo+AD4APpFIoEwlpCMiIggAsBIJaQAAEDdTUAV4hbkAAP74zvV4AAAA" alt="Dog nail trimming"
+             class="services-icon" 
+            />
+            </picture>
+        </ul>
+
+    </div>
+</section>
+      <section class="masters">
+    <div class="container">
+        <h2 class="masters-title">Masters</h2>
+        <div class="masters-img">
+                       <picture>
+               <source
+               srcset="/filton-abbey/assets/master-desk-DVDqs3y_.webp"
+                media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/filton-abbey/assets/master-mobile-DtmOtKrj.webp 1x, /filton-abbey/assets/master-mobile-two-C4nYTsIN.webp 2x"
+              media="(max-width: 767px)"
+            />
+        <img src="/filton-abbey/assets/master-desk-DVDqs3y_.webp" alt="Masters" class="masters-foto"
+        
+            />
+          </picture>
+        </div>
+        <p class="master-text">Rebecca</p>
+    </div>
+</section>
+      <section class="gallery" id="gallery">
+    <div class="container gallery-container">
+        <h2 class="gallery-title">Gallery</h2>
+        <div class="swiper swiperGallery">  
+        <ul class="swiper-wrapper gallery-list">
+            <li class="swiper-slide gallery-item ">
+                <p class="gallery-caption-before">Before</p>
+                <div class="gallery-image-big">
+                    <img src="/filton-abbey/assets/1000014024-BuwG5R3g.png"
+                         alt="Gallery Image 1"
+                         class="gallery-image-big"
+                         width="798"
+                            height="550"
+ />
+                </div>
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-after">After</p>
+                <div class="gallery-image-small">
+                    <img src="/filton-abbey/assets/1000014018%201-7PwrDmbW.png"
+                         alt="Gallery Image 2"
+                         class="gallery-image-small"
+                         width="470"
+                         height="550"
+ />
+                </div>
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-before">Before</p>
+                <img src="/filton-abbey/assets/copy1-DcNm4uua.jpg"
+                     alt="Gallery Image 3"
+                     class="gallery-image-small"
+                      />
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-after">After</p>
+                <img src="/filton-abbey/assets/1000046695-YZDrxTZh.jpg"
+                     alt="Gallery Image 4"
+                     class="gallery-image-big"
+                     width="798"
+                     height="550" />
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-before">Before</p>
+                <img src="/filton-abbey/assets/1000014008%20(1)-D4vk3sIj.png"
+                     alt="Gallery Image 5"
+                     class="gallery-image-big"
+                     width="798"
+                     height="550" />
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-after">After</p>
+                <img src="/filton-abbey/assets/1000014008%20(2)-G-jgHTw2.png"
+                     alt="Gallery Image 6"
+                     class="gallery-image-small"
+                     width="470"
+                     height="550" />
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-before">Before</p>
+                <img src="/filton-abbey/assets/1000014007%20(1)-C9G4JBFW.png"
+                     alt="Gallery Image 7"
+                     class="gallery-image-small"
+                     width="470"
+                     height="550" />
+            </li>
+            <li class="swiper-slide gallery-item">
+                <p class="gallery-caption-after">After</p>
+                <img src="/filton-abbey/assets/1000014007%20(3)-5VOYckof.png"
+                     alt="Gallery Image 8"
+                     class="gallery-image-big"
+                     width="798"
+                     height="550" />
+            </li>
+            
+        </ul>
+        <div class="swiper-pagination"></div>
+        
+        </div>
+        <button type="button" class="gallery-btn">
+            View all
+        </button>
+    </div>
+</section>
+      <section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <div class="swiper swiperReviews"> 
+      <div class="swiper-wrapper reviews-list">
+        <div class="swiper-slide reviews-item">
+          <div class="text">
+            <p class="reviews-text">
+              Aww my baby looks so pretty. Thank you again!
+            </p>
+            <p class="reviews-author">Rachel</p>
+          </div>
+        </div>
+        <div class="swiper-slide reviews-item">
+          <div class="text">
+            <p class="reviews-text">
+              You did such a great job!
+            </p>
+            <p class="reviews-author">Rose</p>
+          </div>
+        </div>
+        <div class="swiper-slide reviews-item">
+          <div class="text">
+            <p class="reviews-text">
+              Rufus and Rafferty look so handsome. Thank you Becky!
+            </p>
+            <p class="reviews-author">David</p>
+          </div>
+        <!-- додай ще слайди тут -->
+      </div>
+      <div class="reviews-btn">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+      <section class="faq" id="faq">
+    <div class="container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <ul class="faq-accordion">
+            <li class="ac">
+                
+                   <button type="button" class="ac-trigger">
+                     How long does grooming take?
+                        <svg class="accordion-icon" width="36" height="36">
+                            <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                        </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">
+                       It completely depends on the size and temperament of the dog. <br/>
+                       If your dog has matted fur this can also affect the timing and pricing of the groom.</p>
+                </div>
+            </li>
+            <li class="ac">
+                <button type="button" class="ac-trigger">
+                    Can I leave my dog and come back later?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">Yes as grooming takes its time you will be given a
+                     time to come and collect.<br/>Don't worry, we'll keep your dog safe 
+                     and comfortable while you're away.</p>
+                </div>
+            </li>
+            <li class="ac">
+                <button type="button" class="ac-trigger">
+                    My dog is afraid of grooming. What should I do?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">A calm approach is always taken with all dogs. 
+                          Lavender scented salon - helps reduce stress and anxiety.</p>
+                </div>
+            </li>
+            <li class="ac">
+                <button type="button" class="ac-trigger">
+                    Do you use sedatives?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">No. You can sedate prior to bringing your dog in if needed but always speak with your
+                        vet before hand.</p>
+                </div>
+            </li>
+            <li class="ac">
+                <button type="button" class="ac-trigger">  
+                    How often should I book my dog in for a groom?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">We recommend to book your dog for a professional groom every 4-8 weeks, 
+                         but this varies significantly by coat type. <br/> Short-haired dogs may only need a full groom every 8-12 weeks, while long-haired or curly-coated breeds typically need visits every 4-6 weeks.
+                          </p>
+                </div>
+            </li>
+            <li class="ac">
+                <button type="button" class="ac-trigger">  
+                    How can I make an appointment?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">Call us or send us an email indicating 
+                        the service and your desired time of visit.</p>
+                </div>
+            </li>
+             <li class="ac">
+                <button type="button" class="ac-trigger">  
+                     Is there a fee for being late or canceling an appointment?
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">Late and cancellation 24hrs or less before appointment will be charged 50% of groom price.</p>
+                </div>
+            </li>
+              <li class="ac">
+                <button type="button" class="ac-trigger">  
+                   Opening hours
+                    <svg class="accordion-icon" width="36" height="36">
+                        <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-plus"></use>
+                    </svg>
+                </button>
+                <div class="ac-panel">
+                    <p class="ac-text">We are here for you from Monday to Friday from 9.00 to18.00</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+      <section class="contacts" id="contacts">
+    <div class="container">
+        <h2 class="contacts-title">Contacts</h2>
+        <div class="contacts-container">
+           <ul class="contacts-list">
+            <li class="contacts-item">
+                <p class="contacts-text">Telephone: </p>
+                    <a href="tel:+447376625996" class="contacts-phone">07376625996</a>
+            </li>
+            <li class="contacts-item contacts-item-email">
+                <p class="contacts-text">E-mail: </p>
+                <a href="mailto:filtonabbeywoof@gmail.com" class="contacts-email">filtonabbeywoof@gmail.com</a>
+            </li>
+            <li class="contacts-item contacts-item-social">
+                <p class="contacts-text">Follow us:</p>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a class="social-link" 
+                        href="https://www.instagram.com/filtonabbeywoof" target="_blank">
+                            <svg class="social-icon"   width="42" height="42">
+                                <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="https://www.twitter.com/filtonabbey" target="_blank">
+                            
+                                <svg class="social-icon" width="42" height="42">
+                                    <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-twitter"></use>
+                                </svg>
+                            
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link"
+                         href="https://www.tiktok.com/@filtonabbey" target="_blank">
+                            
+                                <svg class="social-icon" width="42" height="42">
+                                    <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-tiktok"></use>
+                                </svg>
+                            
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- <form class="contacts-form" id="contact-form">
+            <div class="form-group">
+                
+                <input
+                class="form-user-input" 
+                type="text" 
+                id="name" 
+                name="user_name"
+                placeholder="Anastasia Birkin" 
+                
+                >
+
+            <span class="invalid-input" id="name-error">
+               Please enter your name.</span>
+            <svg class="form-user-icon" width="20" height="20">
+                <use href="/img/sprite.svg#icon-success"></use>
+            </svg>
+            </div>
+            <div class="form-group">
+                
+                <input 
+                class="form-user-input"
+                type="email"
+                 id="email" 
+                 name="user_email" 
+                 required
+                 placeholder="AnastasiaBirkin@gmail.com"
+                 pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+                 >
+                  <span class="invalid-input" id="email-error">
+               Please enter a valid email address.</span>
+            <svg class="form-user-icon" width="20" height="20">
+                <use href="/img/sprite.svg#icon-success"></use>
+            </svg>
+            </div>
+            <div class="form-group">
+                
+                <textarea
+                class="form-user-textarea"
+                 id="message" 
+                 name="user_message" 
+                 required
+                 placeholder="Write your message here..."
+                ></textarea>
+                <span class="invalid-input" id="message-error">
+               Please enter your message.</span>
+            <svg class="form-user-icon" width="20" height="20">
+                <use href="/img/sprite.svg#icon-success"></use>
+            </svg>
+            </div>
+            <button type="submit" class="contacts-form-btn">Send</button>
+            <p class="success-message" id="success-message"></p>
+        </form> -->
+
+        </div>
+        
+    </div>
+</section>
+     
+    </main>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <h2 class="footer-title">Where every pup feels special!</h2>
+        <div class="footer-map">
+            <a href="https://maps.app.goo.gl/UYP2jixHBsypNahC6" 
+            target="_blank"
+            class="footer-map-link">
+ <picture>
+            <source
+              srcset="/filton-abbey/assets/maps-desk-DFsPCzRf.webp 1x, /filton-abbey/assets/maps-desk-two-CPiBreIK.webp 2x"
+              media="(min-width: 768px)"
+            />
+            
+            <source
+              srcset="/filton-abbey/assets/maps-mobile-eBvxLDfT.webp 1x, /filton-abbey/assets/maps-mobile-two-Da6B4IJ3.webp 2x"
+              media="(max-width: 767px)"
+            />
+         <img src="/img/footer/maps.webp" alt="map">
+          </picture>
+
+            
+            </a>
+        </div>
+        
+<div class="footer-contacts-container" id="footer">
+<ul class="footer-social-list">
+            <li class="footer-social-item">
+                <a href="https://www.instagram.com/filtonabbeywoof" 
+                class="footer-social-link"
+                target="_blank">
+                <svg
+                width="42" height="42"
+                 
+                class="footer-social-icon">
+                    <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-instagram"></use>
+                    
+                </svg>
+                    
+                </a>
+            </li>
+              <li class="footer-social-item">
+                <a href="" 
+                class="footer-social-link"
+                target="_blank">
+                <svg width="42" 
+                height="42" 
+                class="footer-social-icon">
+                    <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-twitter"></use>
+                    
+                </svg>
+                    
+                </a>
+            </li>
+              <li class="footer-social-item">
+                <a href="" 
+                class="footer-social-link"
+                target="_blank">
+                <svg width="42" 
+                height="42" 
+                class="footer-social-icon">
+                    <use href="/filton-abbey/assets/sprite-CE8-z3FH.svg#icon-tiktok"></use>
+                    
+                </svg>
+                    
+                </a>
+            </li>
+            
+        </ul>
+        <div class="footer-contacts"> 
+          <p class="footer-photo-text">Telephone</p> 
+        <a class="footer-phone"  href="tel:+447376625996">07376625996</a>
+        <p class="footer-email-text">E-mail</p>
+        <a class="footer-email" href="mailto:filtonabbeywoof@gmail.com">filtonabbywoof@gmail.com</a>
+        <p class="footer-social-text">Follow us</p>
+        <a  class="footer-logo" href="#home"  >
+            <img src="/filton-abbey/assets/logo-footer-BVlU-bgD.png"
+            width="100px"
+            height="106px"
+            alt="LOGO">
+        </a>
+        </div>
+        <div class="footer-texts">
+        <p class="footer-text footer-text-1">Filton Abbey Woof © 2025 All rights reserved</p>
+        <p class="footer-text"><span.footer-text-link>
+            Web by <a href="https://www.linkedin.com/in/larysa-ivshyna-251428316/"
+             class="footer-web-link"
+             target="_blank">
+           Larysa Ivshyna</a>
+        </span.footer-text-link>
+          <span class="footer-text-link">
+ Designed by <a href="https://www.linkedin.com/in/tetiana-retynska/" 
+             class="footer-web-link"
+             target="_blank">
+           Tetiana Retynska</a>
+          </span>
+               </p>
+        </div>
+
+</div>
+        
+
+    </div>
+</footer>
+    <button class="scroll__up">
+  <svg
+    class="scroll__up-svg"
+    viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <defs>
+      <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00f0ff">
+          <animate
+            attributeName="stop-color"
+            values="#00f0ff; #ff00ff; #00ff88; #00f0ff"
+            dur="6s"
+            repeatCount="indefinite"
+          />
+        </stop>
+        <stop offset="100%" stop-color="#ff00ff">
+          <animate
+            attributeName="stop-color"
+            values="#ff00ff; #00ff88; #00f0ff; #ff00ff"
+            dur="6s"
+            repeatCount="indefinite"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+
+    <circle
+      class="scroll__up-svg-path"
+      cx="50"
+      cy="50"
+      r="45"
+      stroke="url(#gradientStroke)"
+    />
+    <polyline points="35,55 50,40 65,55" stroke="white" />
+    <line x1="50" y1="40" x2="50" y2="70" stroke="white" />
+  </svg>
+</button>
+
+  </body>
+</html>
