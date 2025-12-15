@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-    "homepage": "https://filtonabbeywoof.co.uk/filton-abbey/",
+    "homepage": "https://filtonabbeywoof.co.uk",
     
   "scripts": {
     "dev": "vite",

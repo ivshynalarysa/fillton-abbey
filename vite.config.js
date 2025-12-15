@@ -7,6 +7,8 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig(({ command }) => {
   return {
+    // add for github pages deployment
+    base: '/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
@@ -15,25 +17,25 @@ export default defineConfig(({ command }) => {
       sourcemap: true,
       rollupOptions: {
         input: glob.sync('./src/*.html'),
-        output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
-          },
-          entryFileNames: chunkInfo => {
-            if (chunkInfo.name === 'commonHelpers') {
-              return 'commonHelpers.js';
-            }
-            return '[name].js';
-          },
-          assetFileNames: assetInfo => {
-            if (assetInfo.name && assetInfo.name.endsWith('.html')) {
-              return '[name].[ext]';
-            }
-            return 'assets/[name]-[hash][extname]';
-          },
-        },
+       // output: {
+       //   manualChunks(id) {
+        //    if (id.includes('node_modules')) {
+        //      return 'vendor';
+        //    }
+        //  },
+        //  entryFileNames: chunkInfo => {
+        //    if (chunkInfo.name === 'commonHelpers') {
+        //      return 'commonHelpers.js';
+        //    }
+        //    return '[name].js';
+        //  },
+        //  assetFileNames: assetInfo => {
+        //    if (assetInfo.name && assetInfo.name.endsWith('.html')) {
+        //      return '[name].[ext]';
+        //    }
+        //    return 'assets/[name]-[hash][extname]';
+         // },
+        //},
       },
       outDir: '../dist',
       emptyOutDir: true,
