@@ -44,6 +44,10 @@ padding-top: 50px;
   fill: #ffffff;
   stroke: black;
 }
+.footer-social-icon-facebook {
+    fill: #ffffff;
+    stroke: black;
+}
 .footer-social-item {
     width: 34px;
     height: 34px;
@@ -63,6 +67,11 @@ border-bottom: 4px solid var(--green-color) ;
     stroke: var(--green-color);
     height: 32px;
     width: 32px;
+}
+.footer-social-item:hover .footer-social-icon-facebook {
+    stroke: var(--green-color);
+    height: 40px;
+    width: 40px;
 }
 .footer-contacts {
     display: flex;
@@ -159,6 +168,11 @@ border-bottom: 4px solid var(--green-color) ;
     fill: #cad0c8;
    
 }
+.footer-social-icon-facebook {
+    fill: #cad0c8;
+    
+}
+
 .footer-contacts {
     flex-direction: row;
     font-family: var(--second-family);
@@ -173,7 +187,7 @@ border-bottom: 4px solid var(--green-color) ;
     margin-right: 40px;
 }
 .footer-phone {
-  margin-right: 100px;
+  margin-right: 148px;
    margin-bottom: 0;
     
 }
@@ -186,7 +200,7 @@ border-bottom: 4px solid var(--green-color) ;
     margin-right: 40px;
 }
 .footer-email {
-    margin-right: 100px;
+    margin-right: 148px;
    
     
 }
