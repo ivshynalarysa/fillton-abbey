@@ -91,7 +91,7 @@ opacity: 0;
    }
     .services-washing:hover::after {
      opacity: 1;
-     color: var(--green-color);
+     color: #fff;
      
     
     }
